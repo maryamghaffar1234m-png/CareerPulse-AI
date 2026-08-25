@@ -1,0 +1,3051 @@
+[
+    {
+        "title": "General Physician",
+        "description": "Diagnoses and treats common illnesses and medical conditions.",
+        "required_skills": [
+            "Anatomy",
+            "Physiology",
+            "Clinical Diagnosis",
+            "Pharmacology",
+            "Patient Care"
+        ],
+        "salary_range": "$60,000-$180,000/year"
+    },
+    {
+        "title": "Emergency Medicine Physician",
+        "description": "Provides rapid diagnosis and treatment for emergency medical conditions.",
+        "required_skills": [
+            "Emergency Medicine",
+            "Trauma Care",
+            "Clinical Diagnosis",
+            "ACLS",
+            "Patient Assessment"
+        ],
+        "salary_range": "$100,000-$300,000/year"
+    },
+    {
+        "title": "Cardiologist",
+        "description": "Diagnoses and treats diseases of the heart and cardiovascular system.",
+        "required_skills": [
+            "Cardiology",
+            "ECG Interpretation",
+            "Echocardiography",
+            "Cardiac Pharmacology",
+            "Cardiac Care"
+        ],
+        "salary_range": "$150,000-$400,000/year"
+    },
+    {
+        "title": "Neurologist",
+        "description": "Diagnoses and manages disorders affecting the brain, spinal cord, and nervous system.",
+        "required_skills": [
+            "Neurology",
+            "Neuroanatomy",
+            "Neurological Examination",
+            "EEG Interpretation",
+            "Neuropharmacology"
+        ],
+        "salary_range": "$140,000-$350,000/year"
+    },
+    {
+        "title": "Dermatologist",
+        "description": "Diagnoses and treats diseases and conditions of the skin, hair, and nails.",
+        "required_skills": [
+            "Dermatology",
+            "Skin Examination",
+            "Dermatopathology",
+            "Biopsy Techniques",
+            "Dermatological Pharmacology"
+        ],
+        "salary_range": "$120,000-$350,000/year"
+    },
+    {
+        "title": "Pediatrician",
+        "description": "Provides medical diagnosis and treatment for infants, children, and adolescents.",
+        "required_skills": [
+            "Pediatrics",
+            "Child Development",
+            "Pediatric Diagnosis",
+            "Vaccination",
+            "Pediatric Pharmacology"
+        ],
+        "salary_range": "$100,000-$250,000/year"
+    },
+    {
+        "title": "Psychiatrist",
+        "description": "Diagnoses and treats mental, emotional, and behavioral disorders using medical approaches.",
+        "required_skills": [
+            "Psychiatry",
+            "Psychiatric Assessment",
+            "Psychopharmacology",
+            "Mental Status Examination",
+            "Clinical Diagnosis"
+        ],
+        "salary_range": "$120,000-$300,000/year"
+    },
+    {
+        "title": "Oncologist",
+        "description": "Diagnoses and treats cancer using medical and therapeutic interventions.",
+        "required_skills": [
+            "Oncology",
+            "Cancer Diagnosis",
+            "Chemotherapy",
+            "Tumor Staging",
+            "Cancer Pharmacology"
+        ],
+        "salary_range": "$150,000-$400,000/year"
+    },
+    {
+        "title": "Radiologist",
+        "description": "Interprets medical images to diagnose diseases and injuries.",
+        "required_skills": [
+            "Radiology",
+            "X-ray Interpretation",
+            "CT Imaging",
+            "MRI Interpretation",
+            "Ultrasound"
+        ],
+        "salary_range": "$150,000-$400,000/year"
+    },
+    {
+        "title": "Anesthesiologist",
+        "description": "Administers anesthesia and monitors patients during surgical procedures.",
+        "required_skills": [
+            "Anesthesiology",
+            "Anesthesia Administration",
+            "Airway Management",
+            "Patient Monitoring",
+            "Pharmacology"
+        ],
+        "salary_range": "$180,000-$450,000/year"
+    },
+    {
+        "title": "Surgeon",
+        "description": "Performs surgical procedures to treat injuries, diseases, and medical conditions.",
+        "required_skills": [
+            "General Surgery",
+            "Surgical Techniques",
+            "Anatomy",
+            "Sterile Procedures",
+            "Postoperative Care"
+        ],
+        "salary_range": "$150,000-$450,000/year"
+    },
+    {
+        "title": "Orthopedic Surgeon",
+        "description": "Treats musculoskeletal injuries and disorders through surgical procedures.",
+        "required_skills": [
+            "Orthopedic Surgery",
+            "Musculoskeletal Anatomy",
+            "Fracture Management",
+            "Joint Replacement",
+            "Surgical Techniques"
+        ],
+        "salary_range": "$180,000-$500,000/year"
+    },
+    {
+        "title": "Obstetrician-Gynecologist",
+        "description": "Provides medical and surgical care related to pregnancy and the female reproductive system.",
+        "required_skills": [
+            "Obstetrics",
+            "Gynecology",
+            "Prenatal Care",
+            "Ultrasound",
+            "Reproductive Anatomy"
+        ],
+        "salary_range": "$140,000-$350,000/year"
+    },
+    {
+        "title": "Ophthalmologist",
+        "description": "Diagnoses and treats diseases and disorders of the eyes and visual system.",
+        "required_skills": [
+            "Ophthalmology",
+            "Eye Examination",
+            "Retinal Imaging",
+            "Cataract Surgery",
+            "Optics"
+        ],
+        "salary_range": "$130,000-$400,000/year"
+    },
+    {
+        "title": "Otolaryngologist",
+        "description": "Treats disorders of the ear, nose, throat, and related structures.",
+        "required_skills": [
+            "Otolaryngology",
+            "Audiology",
+            "Endoscopy",
+            "Head And Neck Anatomy",
+            "ENT Surgery"
+        ],
+        "salary_range": "$140,000-$350,000/year"
+    },
+    {
+        "title": "Registered Nurse",
+        "description": "Provides direct nursing care, monitors patients, and administers prescribed treatments.",
+        "required_skills": [
+            "Patient Care",
+            "Nursing Assessment",
+            "Medication Administration",
+            "Vital Signs Monitoring",
+            "Nursing Procedures"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Critical Care Nurse",
+        "description": "Provides specialized nursing care to critically ill patients in intensive care units.",
+        "required_skills": [
+            "Critical Care Nursing",
+            "Ventilator Management",
+            "Hemodynamic Monitoring",
+            "ACLS",
+            "Patient Monitoring"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Pediatric Nurse",
+        "description": "Provides nursing care to infants, children, and adolescents.",
+        "required_skills": [
+            "Pediatric Nursing",
+            "Child Assessment",
+            "Medication Administration",
+            "Pediatric Care",
+            "Vaccination"
+        ],
+        "salary_range": "$45,000-$95,000/year"
+    },
+    {
+        "title": "Emergency Room Nurse",
+        "description": "Provides immediate nursing care to patients with acute injuries and illnesses.",
+        "required_skills": [
+            "Emergency Nursing",
+            "Triage",
+            "Trauma Care",
+            "IV Therapy",
+            "ACLS"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Operating Room Nurse",
+        "description": "Supports surgical procedures and provides perioperative patient care.",
+        "required_skills": [
+            "Perioperative Nursing",
+            "Surgical Instruments",
+            "Sterile Technique",
+            "Operating Room Procedures",
+            "Patient Monitoring"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Neonatal Nurse",
+        "description": "Provides specialized care for premature and critically ill newborns.",
+        "required_skills": [
+            "Neonatal Nursing",
+            "Neonatal Resuscitation",
+            "Incubator Management",
+            "Newborn Assessment",
+            "NICU Monitoring"
+        ],
+        "salary_range": "$50,000-$115,000/year"
+    },
+    {
+        "title": "Dialysis Nurse",
+        "description": "Provides nursing care to patients receiving hemodialysis and related treatments.",
+        "required_skills": [
+            "Dialysis Nursing",
+            "Hemodialysis",
+            "Vascular Access",
+            "Fluid Management",
+            "Renal Care"
+        ],
+        "salary_range": "$48,000-$105,000/year"
+    },
+    {
+        "title": "Nurse Anesthetist",
+        "description": "Administers anesthesia and monitors patients during medical and surgical procedures.",
+        "required_skills": [
+            "Anesthesia Administration",
+            "Airway Management",
+            "Physiology",
+            "Pharmacology",
+            "Patient Monitoring"
+        ],
+        "salary_range": "$120,000-$220,000/year"
+    },
+    {
+        "title": "Nurse Practitioner",
+        "description": "Provides advanced clinical assessment, diagnosis, and treatment under applicable clinical regulations.",
+        "required_skills": [
+            "Advanced Nursing",
+            "Clinical Diagnosis",
+            "Physical Examination",
+            "Pharmacology",
+            "Patient Assessment"
+        ],
+        "salary_range": "$80,000-$150,000/year"
+    },
+    {
+        "title": "Clinical Pharmacist",
+        "description": "Provides medication therapy management and evaluates drug treatment plans.",
+        "required_skills": [
+            "Pharmacology",
+            "Pharmacokinetics",
+            "Medication Therapy Management",
+            "Drug Interactions",
+            "Clinical Pharmacy"
+        ],
+        "salary_range": "$80,000-$150,000/year"
+    },
+    {
+        "title": "Hospital Pharmacist",
+        "description": "Manages medication preparation, dispensing, and pharmaceutical services within hospitals.",
+        "required_skills": [
+            "Hospital Pharmacy",
+            "Medication Dispensing",
+            "Pharmacology",
+            "Drug Storage",
+            "Sterile Compounding"
+        ],
+        "salary_range": "$65,000-$130,000/year"
+    },
+    {
+        "title": "Community Pharmacist",
+        "description": "Dispenses medicines and provides medication-related services in community pharmacies.",
+        "required_skills": [
+            "Pharmacy Practice",
+            "Medication Dispensing",
+            "Pharmacology",
+            "Prescription Processing",
+            "Drug Interaction Checking"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Pharmacy Technician",
+        "description": "Assists pharmacists with medication preparation, dispensing, and inventory tasks.",
+        "required_skills": [
+            "Medication Dispensing",
+            "Prescription Processing",
+            "Pharmaceutical Calculations",
+            "Pharmacy Inventory",
+            "Sterile Compounding"
+        ],
+        "salary_range": "$30,000-$60,000/year"
+    },
+    {
+        "title": "Pharmaceutical Scientist",
+        "description": "Conducts research and development of pharmaceutical products and drug formulations.",
+        "required_skills": [
+            "Pharmaceutical Chemistry",
+            "Drug Development",
+            "Pharmacology",
+            "Formulation Science",
+            "Laboratory Techniques"
+        ],
+        "salary_range": "$60,000-$140,000/year"
+    },
+    {
+        "title": "Clinical Research Pharmacist",
+        "description": "Supports clinical research involving investigational medicines and drug therapies.",
+        "required_skills": [
+            "Clinical Pharmacy",
+            "Clinical Trials",
+            "Pharmacokinetics",
+            "Drug Safety",
+            "Research Protocols"
+        ],
+        "salary_range": "$65,000-$140,000/year"
+    },
+    {
+        "title": "Medical Laboratory Scientist",
+        "description": "Performs laboratory tests used to diagnose and monitor diseases.",
+        "required_skills": [
+            "Clinical Laboratory Science",
+            "Hematology",
+            "Clinical Chemistry",
+            "Microbiology",
+            "Laboratory Testing"
+        ],
+        "salary_range": "$45,000-$90,000/year"
+    },
+    {
+        "title": "Medical Laboratory Technician",
+        "description": "Performs routine laboratory procedures on clinical specimens.",
+        "required_skills": [
+            "Laboratory Techniques",
+            "Specimen Processing",
+            "Hematology",
+            "Clinical Chemistry",
+            "Microscopy"
+        ],
+        "salary_range": "$35,000-$70,000/year"
+    },
+    {
+        "title": "Microbiology Laboratory Scientist",
+        "description": "Identifies microorganisms and analyzes specimens for infectious diseases.",
+        "required_skills": [
+            "Microbiology",
+            "Bacteriology",
+            "Culture Techniques",
+            "Microscopy",
+            "Microbial Identification"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Clinical Biochemist",
+        "description": "Analyzes biological samples to support diagnosis and monitoring of diseases.",
+        "required_skills": [
+            "Clinical Biochemistry",
+            "Enzymology",
+            "Immunoassays",
+            "Spectrophotometry",
+            "Laboratory Diagnostics"
+        ],
+        "salary_range": "$50,000-$120,000/year"
+    },
+    {
+        "title": "Hematology Laboratory Technologist",
+        "description": "Performs laboratory analysis of blood cells and blood-related disorders.",
+        "required_skills": [
+            "Hematology",
+            "Blood Cell Analysis",
+            "Coagulation Testing",
+            "Blood Smear Preparation",
+            "Laboratory Diagnostics"
+        ],
+        "salary_range": "$45,000-$95,000/year"
+    },
+    {
+        "title": "Histotechnologist",
+        "description": "Prepares tissue samples for microscopic examination and disease diagnosis.",
+        "required_skills": [
+            "Histotechnology",
+            "Tissue Processing",
+            "Microtomy",
+            "Histological Staining",
+            "Microscopy"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Cytotechnologist",
+        "description": "Examines cells under microscopes to detect abnormalities and cancerous changes.",
+        "required_skills": [
+            "Cytology",
+            "Microscopy",
+            "Cell Preparation",
+            "Cytological Staining",
+            "Cancer Screening"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Pathologist",
+        "description": "Diagnoses diseases by examining tissues, cells, and laboratory specimens.",
+        "required_skills": [
+            "Pathology",
+            "Histopathology",
+            "Cytopathology",
+            "Autopsy Procedures",
+            "Microscopy"
+        ],
+        "salary_range": "$120,000-$350,000/year"
+    },
+    {
+        "title": "Molecular Diagnostics Scientist",
+        "description": "Uses molecular techniques to identify genetic and infectious disease markers.",
+        "required_skills": [
+            "Molecular Biology",
+            "PCR",
+            "DNA Sequencing",
+            "Genetic Testing",
+            "Molecular Diagnostics"
+        ],
+        "salary_range": "$55,000-$130,000/year"
+    },
+    {
+        "title": "Medical Geneticist",
+        "description": "Diagnoses and manages genetic disorders using clinical and laboratory methods.",
+        "required_skills": [
+            "Medical Genetics",
+            "Genetic Testing",
+            "Molecular Genetics",
+            "Genetic Counseling Techniques",
+            "Clinical Diagnosis"
+        ],
+        "salary_range": "$100,000-$250,000/year"
+    },
+    {
+        "title": "Radiologic Technologist",
+        "description": "Performs diagnostic imaging procedures using X-ray and related equipment.",
+        "required_skills": [
+            "Radiologic Technology",
+            "X-ray Imaging",
+            "Radiation Safety",
+            "Patient Positioning",
+            "Imaging Equipment"
+        ],
+        "salary_range": "$40,000-$85,000/year"
+    },
+    {
+        "title": "MRI Technologist",
+        "description": "Operates MRI equipment to produce detailed diagnostic images of the body.",
+        "required_skills": [
+            "MRI",
+            "Magnetic Resonance Imaging",
+            "MRI Safety",
+            "Patient Positioning",
+            "Imaging Protocols"
+        ],
+        "salary_range": "$45,000-$95,000/year"
+    },
+    {
+        "title": "CT Technologist",
+        "description": "Performs computed tomography scans for diagnostic imaging.",
+        "required_skills": [
+            "CT Imaging",
+            "Computed Tomography",
+            "Radiation Safety",
+            "Contrast Administration",
+            "Image Reconstruction"
+        ],
+        "salary_range": "$45,000-$95,000/year"
+    },
+    {
+        "title": "Ultrasound Technologist",
+        "description": "Performs diagnostic ultrasound examinations using sonographic equipment.",
+        "required_skills": [
+            "Ultrasound",
+            "Sonography",
+            "Doppler Imaging",
+            "Patient Positioning",
+            "Ultrasound Anatomy"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Nuclear Medicine Technologist",
+        "description": "Performs diagnostic imaging procedures using radioactive pharmaceuticals.",
+        "required_skills": [
+            "Nuclear Medicine",
+            "Radiopharmaceuticals",
+            "Gamma Camera",
+            "Radiation Safety",
+            "PET Imaging"
+        ],
+        "salary_range": "$50,000-$105,000/year"
+    },
+    {
+        "title": "Respiratory Therapist",
+        "description": "Provides respiratory treatments and manages patients with breathing disorders.",
+        "required_skills": [
+            "Respiratory Therapy",
+            "Ventilator Management",
+            "Pulmonary Function Testing",
+            "Oxygen Therapy",
+            "Airway Management"
+        ],
+        "salary_range": "$45,000-$95,000/year"
+    },
+    {
+        "title": "Physical Therapist",
+        "description": "Evaluates and treats movement disorders, injuries, and physical impairments.",
+        "required_skills": [
+            "Physical Therapy",
+            "Exercise Therapy",
+            "Musculoskeletal Assessment",
+            "Rehabilitation",
+            "Therapeutic Exercises"
+        ],
+        "salary_range": "$55,000-$110,000/year"
+    },
+    {
+        "title": "Occupational Therapist",
+        "description": "Helps patients improve functional abilities needed for daily activities and rehabilitation.",
+        "required_skills": [
+            "Occupational Therapy",
+            "Functional Assessment",
+            "Rehabilitation",
+            "Therapeutic Activities",
+            "Assistive Devices"
+        ],
+        "salary_range": "$55,000-$110,000/year"
+    },
+    {
+        "title": "Speech-Language Pathologist",
+        "description": "Evaluates and treats speech, language, communication, and swallowing disorders.",
+        "required_skills": [
+            "Speech-Language Pathology",
+            "Speech Assessment",
+            "Language Therapy",
+            "Swallowing Assessment",
+            "Articulation Therapy"
+        ],
+        "salary_range": "$55,000-$110,000/year"
+    },
+    {
+        "title": "Dietitian",
+        "description": "Develops nutrition plans for patients based on medical and dietary requirements.",
+        "required_skills": [
+            "Clinical Nutrition",
+            "Nutritional Assessment",
+            "Medical Nutrition Therapy",
+            "Diet Planning",
+            "Nutrient Analysis"
+        ],
+        "salary_range": "$45,000-$90,000/year"
+    },
+    {
+        "title": "Primary School Teacher",
+        "description": "Teaches foundational subjects and develops academic skills for primary-level students.",
+        "required_skills": [
+            "Lesson Planning",
+            "Primary Education",
+            "Classroom Management",
+            "Child Development",
+            "Assessment Design"
+        ],
+        "salary_range": "$30,000-$65,000/year"
+    },
+    {
+        "title": "Secondary School Teacher",
+        "description": "Teaches academic subjects to students at secondary school level.",
+        "required_skills": [
+            "Subject Instruction",
+            "Lesson Planning",
+            "Classroom Management",
+            "Curriculum Implementation",
+            "Student Assessment"
+        ],
+        "salary_range": "$35,000-$75,000/year"
+    },
+    {
+        "title": "Mathematics Teacher",
+        "description": "Teaches mathematical concepts, problem-solving methods, and mathematical reasoning.",
+        "required_skills": [
+            "Mathematics",
+            "Algebra",
+            "Geometry",
+            "Calculus",
+            "Lesson Planning"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Physics Teacher",
+        "description": "Teaches physics concepts, theories, experiments, and mathematical applications.",
+        "required_skills": [
+            "Physics",
+            "Mechanics",
+            "Thermodynamics",
+            "Electromagnetism",
+            "Laboratory Instruction"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Chemistry Teacher",
+        "description": "Teaches chemical principles, laboratory procedures, and scientific calculations.",
+        "required_skills": [
+            "Chemistry",
+            "Organic Chemistry",
+            "Inorganic Chemistry",
+            "Laboratory Techniques",
+            "Chemical Calculations"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Biology Teacher",
+        "description": "Teaches biological sciences, including organisms, genetics, and human biology.",
+        "required_skills": [
+            "Biology",
+            "Genetics",
+            "Cell Biology",
+            "Human Anatomy",
+            "Laboratory Instruction"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Computer Science Teacher",
+        "description": "Teaches programming, computer systems, algorithms, and digital technologies.",
+        "required_skills": [
+            "Computer Science",
+            "Programming",
+            "Algorithms",
+            "Database Fundamentals",
+            "Computer Networks"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "English Language Teacher",
+        "description": "Teaches English grammar, vocabulary, reading, writing, and language usage.",
+        "required_skills": [
+            "English Grammar",
+            "English Literature",
+            "Language Instruction",
+            "Phonetics",
+            "Writing Instruction"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Urdu Language Teacher",
+        "description": "Teaches Urdu language, grammar, literature, reading, and writing.",
+        "required_skills": [
+            "Urdu Grammar",
+            "Urdu Literature",
+            "Language Instruction",
+            "Urdu Composition",
+            "Reading Instruction"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Arabic Language Teacher",
+        "description": "Teaches Arabic language, grammar, vocabulary, reading, and writing.",
+        "required_skills": [
+            "Arabic Grammar",
+            "Arabic Literature",
+            "Arabic Phonetics",
+            "Language Instruction",
+            "Arabic Composition"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Islamic Studies Teacher",
+        "description": "Teaches Islamic studies, religious texts, history, and related academic subjects.",
+        "required_skills": [
+            "Islamic Studies",
+            "Quranic Studies",
+            "Hadith Studies",
+            "Islamic History",
+            "Arabic Reading"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "History Teacher",
+        "description": "Teaches historical events, civilizations, political developments, and historical analysis.",
+        "required_skills": [
+            "History",
+            "Historical Research",
+            "World History",
+            "Political History",
+            "Lesson Planning"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "Geography Teacher",
+        "description": "Teaches physical geography, human geography, maps, climate, and geographical systems.",
+        "required_skills": [
+            "Geography",
+            "Cartography",
+            "GIS Fundamentals",
+            "Physical Geography",
+            "Human Geography"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "Economics Teacher",
+        "description": "Teaches economic theories, markets, finance, and economic analysis.",
+        "required_skills": [
+            "Economics",
+            "Microeconomics",
+            "Macroeconomics",
+            "Economic Analysis",
+            "Statistics"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Accounting Teacher",
+        "description": "Teaches accounting principles, financial statements, bookkeeping, and accounting procedures.",
+        "required_skills": [
+            "Accounting",
+            "Financial Accounting",
+            "Bookkeeping",
+            "Cost Accounting",
+            "Accounting Software"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Business Studies Teacher",
+        "description": "Teaches business principles, management, marketing, finance, and entrepreneurship.",
+        "required_skills": [
+            "Business Studies",
+            "Business Management",
+            "Marketing Fundamentals",
+            "Entrepreneurship",
+            "Business Economics"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Art Teacher",
+        "description": "Teaches visual arts, drawing, painting, design, and creative techniques.",
+        "required_skills": [
+            "Drawing",
+            "Painting",
+            "Art History",
+            "Visual Design",
+            "Art Instruction"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Music Teacher",
+        "description": "Provides instruction in music theory, instruments, performance, and composition.",
+        "required_skills": [
+            "Music Theory",
+            "Music Composition",
+            "Instrumental Instruction",
+            "Music Reading",
+            "Ear Training"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "Physical Education Teacher",
+        "description": "Teaches physical fitness, sports, exercise techniques, and health-related activities.",
+        "required_skills": [
+            "Physical Education",
+            "Sports Training",
+            "Exercise Physiology",
+            "Fitness Assessment",
+            "Sports Safety"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Early Childhood Educator",
+        "description": "Provides educational activities and developmental learning for young children.",
+        "required_skills": [
+            "Early Childhood Education",
+            "Child Development",
+            "Early Literacy",
+            "Learning Activities",
+            "Child Assessment"
+        ],
+        "salary_range": "$28,000-$60,000/year"
+    },
+    {
+        "title": "Special Education Teacher",
+        "description": "Provides specialized instruction and educational support for students with learning needs.",
+        "required_skills": [
+            "Special Education",
+            "Individualized Education Plans",
+            "Learning Disability Assessment",
+            "Behavioral Intervention",
+            "Adaptive Instruction"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Montessori Teacher",
+        "description": "Uses Montessori educational methods to support independent and structured learning.",
+        "required_skills": [
+            "Montessori Education",
+            "Montessori Materials",
+            "Child Development",
+            "Lesson Planning",
+            "Classroom Management"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Kindergarten Teacher",
+        "description": "Provides foundational education and developmental activities for kindergarten students.",
+        "required_skills": [
+            "Early Childhood Education",
+            "Phonics",
+            "Early Numeracy",
+            "Lesson Planning",
+            "Child Assessment"
+        ],
+        "salary_range": "$28,000-$60,000/year"
+    },
+    {
+        "title": "ESL Teacher",
+        "description": "Teaches English as a second language to students from non-English-speaking backgrounds.",
+        "required_skills": [
+            "ESL Instruction",
+            "English Grammar",
+            "Phonetics",
+            "Second Language Acquisition",
+            "Language Assessment"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "IELTS Instructor",
+        "description": "Prepares students for IELTS examinations through targeted language and test instruction.",
+        "required_skills": [
+            "IELTS Preparation",
+            "English Grammar",
+            "Academic Writing",
+            "Reading Comprehension",
+            "Listening Assessment"
+        ],
+        "salary_range": "$30,000-$80,000/year"
+    },
+    {
+        "title": "Academic Writing Instructor",
+        "description": "Teaches academic writing, research writing, citation, and scholarly composition.",
+        "required_skills": [
+            "Academic Writing",
+            "Research Methods",
+            "Citation Styles",
+            "Essay Structure",
+            "Grammar"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "Online Tutor",
+        "description": "Provides subject-specific instruction and academic support through online learning platforms.",
+        "required_skills": [
+            "Online Teaching",
+            "Subject Instruction",
+            "Digital Learning Platforms",
+            "Lesson Planning",
+            "Online Assessment"
+        ],
+        "salary_range": "$25,000-$70,000/year"
+    },
+    {
+        "title": "Private Mathematics Tutor",
+        "description": "Provides individualized mathematics instruction and problem-solving practice.",
+        "required_skills": [
+            "Mathematics",
+            "Algebra",
+            "Geometry",
+            "Calculus",
+            "Mathematical Problem Solving"
+        ],
+        "salary_range": "$25,000-$75,000/year"
+    },
+    {
+        "title": "Science Tutor",
+        "description": "Provides individualized instruction in scientific concepts and examination preparation.",
+        "required_skills": [
+            "General Science",
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Science Assessment"
+        ],
+        "salary_range": "$25,000-$70,000/year"
+    },
+    {
+        "title": "Programming Instructor",
+        "description": "Teaches programming languages, software development concepts, and coding practices.",
+        "required_skills": [
+            "Programming",
+            "Python",
+            "Java",
+            "JavaScript",
+            "Algorithms"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "Vocational Training Instructor",
+        "description": "Provides practical instruction in technical and vocational skills for career preparation.",
+        "required_skills": [
+            "Vocational Education",
+            "Technical Training",
+            "Practical Demonstration",
+            "Skills Assessment",
+            "Workshop Safety"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "Corporate Trainer",
+        "description": "Designs and delivers structured training programs for employees in professional settings.",
+        "required_skills": [
+            "Training Design",
+            "Instructional Design",
+            "Learning Management Systems",
+            "Training Assessment",
+            "Curriculum Development"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Instructional Designer",
+        "description": "Develops educational courses, digital learning materials, and instructional programs.",
+        "required_skills": [
+            "Instructional Design",
+            "ADDIE",
+            "Learning Management Systems",
+            "E-Learning Development",
+            "Curriculum Design"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Curriculum Developer",
+        "description": "Designs and evaluates curricula, learning objectives, course structures, and educational materials.",
+        "required_skills": [
+            "Curriculum Design",
+            "Curriculum Evaluation",
+            "Learning Objectives",
+            "Educational Standards",
+            "Assessment Design"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Educational Technology Specialist",
+        "description": "Implements and supports technology-based tools and systems for educational environments.",
+        "required_skills": [
+            "Educational Technology",
+            "Learning Management Systems",
+            "E-Learning Platforms",
+            "Digital Assessment",
+            "Instructional Technology"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "School Principal",
+        "description": "Leads school academic programs, curriculum implementation, and educational operations.",
+        "required_skills": [
+            "Educational Leadership",
+            "Curriculum Management",
+            "School Administration",
+            "Academic Assessment",
+            "Education Policy"
+        ],
+        "salary_range": "$55,000-$130,000/year"
+    },
+    {
+        "title": "Vice Principal",
+        "description": "Supports school administration, academic programs, discipline systems, and curriculum operations.",
+        "required_skills": [
+            "School Administration",
+            "Curriculum Management",
+            "Academic Scheduling",
+            "Student Assessment",
+            "Education Policy"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Academic Coordinator",
+        "description": "Coordinates academic programs, curricula, schedules, assessments, and teaching activities.",
+        "required_skills": [
+            "Academic Planning",
+            "Curriculum Coordination",
+            "Assessment Design",
+            "Academic Scheduling",
+            "Education Management"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "University Professor",
+        "description": "Teaches university-level courses and conducts research within an academic discipline.",
+        "required_skills": [
+            "Subject-Matter Expertise",
+            "University Teaching",
+            "Research Methods",
+            "Academic Assessment",
+            "Curriculum Design"
+        ],
+        "salary_range": "$60,000-$160,000/year"
+    },
+    {
+        "title": "Assistant Professor",
+        "description": "Teaches undergraduate or graduate courses while conducting academic research.",
+        "required_skills": [
+            "University Teaching",
+            "Research Methods",
+            "Academic Writing",
+            "Curriculum Development",
+            "Subject-Matter Expertise"
+        ],
+        "salary_range": "$50,000-$120,000/year"
+    },
+    {
+        "title": "Associate Professor",
+        "description": "Provides advanced university teaching, research, and academic program development.",
+        "required_skills": [
+            "Advanced Research Methods",
+            "University Teaching",
+            "Academic Publishing",
+            "Curriculum Design",
+            "Subject-Matter Expertise"
+        ],
+        "salary_range": "$65,000-$140,000/year"
+    },
+    {
+        "title": "Research Professor",
+        "description": "Conducts advanced academic research and contributes to graduate and postgraduate education.",
+        "required_skills": [
+            "Research Methodology",
+            "Academic Research",
+            "Statistical Analysis",
+            "Academic Publishing",
+            "Grant Research"
+        ],
+        "salary_range": "$70,000-$180,000/year"
+    },
+    {
+        "title": "University Lecturer",
+        "description": "Teaches specialized courses and assesses students at the university level.",
+        "required_skills": [
+            "University Teaching",
+            "Subject-Matter Expertise",
+            "Lesson Planning",
+            "Academic Assessment",
+            "Curriculum Development"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Graduate Teaching Assistant",
+        "description": "Supports university courses through tutorials, laboratory instruction, and academic assessment.",
+        "required_skills": [
+            "Subject-Matter Expertise",
+            "Tutorial Instruction",
+            "Laboratory Instruction",
+            "Grading",
+            "Academic Assessment"
+        ],
+        "salary_range": "$25,000-$55,000/year"
+    },
+    {
+        "title": "Academic Researcher",
+        "description": "Conducts scholarly research, analyzes data, and produces academic publications.",
+        "required_skills": [
+            "Research Methods",
+            "Data Analysis",
+            "Statistical Analysis",
+            "Academic Writing",
+            "Literature Review"
+        ],
+        "salary_range": "$45,000-$110,000/year"
+    },
+    {
+        "title": "Education Researcher",
+        "description": "Conducts research on teaching methods, learning outcomes, education systems, and curricula.",
+        "required_skills": [
+            "Educational Research",
+            "Research Methodology",
+            "Statistical Analysis",
+            "Survey Design",
+            "Data Analysis"
+        ],
+        "salary_range": "$45,000-$110,000/year"
+    },
+    {
+        "title": "Educational Psychologist",
+        "description": "Applies psychological and educational methods to assess learning and developmental needs.",
+        "required_skills": [
+            "Educational Psychology",
+            "Psychological Assessment",
+            "Learning Assessment",
+            "Cognitive Testing",
+            "Child Development"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Academic Advisor",
+        "description": "Provides structured academic guidance based on degree requirements, course plans, and academic records.",
+        "required_skills": [
+            "Academic Advising",
+            "Degree Planning",
+            "Curriculum Knowledge",
+            "Academic Records",
+            "Course Scheduling"
+        ],
+        "salary_range": "$40,000-$85,000/year"
+    },
+    {
+        "title": "Librarian",
+        "description": "Manages academic information resources and supports research and information retrieval.",
+        "required_skills": [
+            "Library Science",
+            "Cataloging",
+            "Metadata Management",
+            "Information Retrieval",
+            "Digital Libraries"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "University Registrar",
+        "description": "Manages academic records, enrollment systems, examinations, and student registration processes.",
+        "required_skills": [
+            "Student Information Systems",
+            "Academic Records Management",
+            "Course Registration",
+            "Examination Administration",
+            "Academic Policy"
+        ],
+        "salary_range": "$50,000-$120,000/year"
+    },
+    {
+        "title": "Civil Engineer",
+        "description": "Designs and oversees infrastructure projects such as roads, bridges, and drainage systems.",
+        "required_skills": [
+            "Civil Engineering",
+            "Structural Analysis",
+            "AutoCAD",
+            "Construction Materials",
+            "Surveying"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Structural Engineer",
+        "description": "Designs and analyzes structural systems for buildings, bridges, and other infrastructure.",
+        "required_skills": [
+            "Structural Analysis",
+            "Structural Design",
+            "AutoCAD",
+            "STAAD.Pro",
+            "Reinforced Concrete Design"
+        ],
+        "salary_range": "$60,000-$130,000/year"
+    },
+    {
+        "title": "Mechanical Engineer",
+        "description": "Designs, develops, and tests mechanical systems, machinery, and equipment.",
+        "required_skills": [
+            "Mechanical Design",
+            "CAD",
+            "Thermodynamics",
+            "Fluid Mechanics",
+            "Finite Element Analysis"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Electrical Engineer",
+        "description": "Designs and develops electrical systems, equipment, and power distribution systems.",
+        "required_skills": [
+            "Electrical Engineering",
+            "Circuit Design",
+            "Power Systems",
+            "AutoCAD Electrical",
+            "Electrical Testing"
+        ],
+        "salary_range": "$55,000-$125,000/year"
+    },
+    {
+        "title": "Electronics Engineer",
+        "description": "Designs and tests electronic circuits, devices, and control systems.",
+        "required_skills": [
+            "Electronics",
+            "Circuit Design",
+            "PCB Design",
+            "Embedded Systems",
+            "Electronic Testing"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Chemical Engineer",
+        "description": "Designs and optimizes industrial processes involving chemical production and materials.",
+        "required_skills": [
+            "Chemical Engineering",
+            "Process Design",
+            "Thermodynamics",
+            "Fluid Mechanics",
+            "Process Simulation"
+        ],
+        "salary_range": "$60,000-$130,000/year"
+    },
+    {
+        "title": "Environmental Engineer",
+        "description": "Develops engineering solutions for pollution control, waste management, and environmental protection.",
+        "required_skills": [
+            "Environmental Engineering",
+            "Wastewater Treatment",
+            "Environmental Modeling",
+            "Air Pollution Control",
+            "Environmental Impact Assessment"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Geotechnical Engineer",
+        "description": "Analyzes soil and rock conditions for foundations, slopes, roads, and other structures.",
+        "required_skills": [
+            "Geotechnical Engineering",
+            "Soil Mechanics",
+            "Foundation Design",
+            "Geotechnical Testing",
+            "Slope Stability Analysis"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Transportation Engineer",
+        "description": "Plans and designs transportation systems including highways, intersections, and traffic networks.",
+        "required_skills": [
+            "Transportation Engineering",
+            "Traffic Engineering",
+            "Highway Design",
+            "Roadway Design",
+            "Traffic Modeling"
+        ],
+        "salary_range": "$50,000-$115,000/year"
+    },
+    {
+        "title": "Water Resources Engineer",
+        "description": "Designs and manages systems for water supply, drainage, flood control, and hydraulic infrastructure.",
+        "required_skills": [
+            "Hydraulics",
+            "Hydrology",
+            "Water Resources Engineering",
+            "Stormwater Modeling",
+            "Hydraulic Modeling"
+        ],
+        "salary_range": "$50,000-$115,000/year"
+    },
+    {
+        "title": "Aerospace Engineer",
+        "description": "Designs and develops aircraft, spacecraft, propulsion systems, and aerospace components.",
+        "required_skills": [
+            "Aerospace Engineering",
+            "Aerodynamics",
+            "Propulsion",
+            "Flight Mechanics",
+            "CAD"
+        ],
+        "salary_range": "$70,000-$150,000/year"
+    },
+    {
+        "title": "Automotive Engineer",
+        "description": "Designs and develops vehicle systems, components, and automotive technologies.",
+        "required_skills": [
+            "Automotive Engineering",
+            "Vehicle Dynamics",
+            "CAD",
+            "Powertrain Engineering",
+            "Automotive Testing"
+        ],
+        "salary_range": "$55,000-$125,000/year"
+    },
+    {
+        "title": "Industrial Engineer",
+        "description": "Optimizes manufacturing processes, production systems, and industrial operations.",
+        "required_skills": [
+            "Industrial Engineering",
+            "Process Optimization",
+            "Production Planning",
+            "Operations Research",
+            "Lean Manufacturing"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Manufacturing Engineer",
+        "description": "Develops and improves manufacturing processes, production equipment, and assembly systems.",
+        "required_skills": [
+            "Manufacturing Engineering",
+            "CNC Machining",
+            "CAD",
+            "Process Engineering",
+            "Manufacturing Automation"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Robotics Engineer",
+        "description": "Designs, programs, and integrates robotic systems for industrial and automated applications.",
+        "required_skills": [
+            "Robotics",
+            "Robot Programming",
+            "Control Systems",
+            "Computer Vision",
+            "PLC Programming"
+        ],
+        "salary_range": "$65,000-$140,000/year"
+    },
+    {
+        "title": "Mechatronics Engineer",
+        "description": "Develops integrated mechanical, electrical, and automated systems.",
+        "required_skills": [
+            "Mechatronics",
+            "Control Systems",
+            "PLC Programming",
+            "CAD",
+            "Embedded Systems"
+        ],
+        "salary_range": "$55,000-$125,000/year"
+    },
+    {
+        "title": "Petroleum Engineer",
+        "description": "Develops methods for extracting oil and gas from underground reservoirs.",
+        "required_skills": [
+            "Petroleum Engineering",
+            "Reservoir Engineering",
+            "Drilling Engineering",
+            "Well Logging",
+            "Reservoir Simulation"
+        ],
+        "salary_range": "$70,000-$160,000/year"
+    },
+    {
+        "title": "Mining Engineer",
+        "description": "Plans and manages engineering operations for extracting minerals and ores.",
+        "required_skills": [
+            "Mining Engineering",
+            "Mine Design",
+            "Rock Mechanics",
+            "Blasting Engineering",
+            "Mine Planning"
+        ],
+        "salary_range": "$60,000-$140,000/year"
+    },
+    {
+        "title": "Nuclear Engineer",
+        "description": "Designs and analyzes nuclear systems, reactors, and radiation-related technologies.",
+        "required_skills": [
+            "Nuclear Engineering",
+            "Reactor Physics",
+            "Radiation Protection",
+            "Thermal Hydraulics",
+            "Nuclear Safety"
+        ],
+        "salary_range": "$75,000-$160,000/year"
+    },
+    {
+        "title": "Biomedical Engineer",
+        "description": "Designs medical devices, biomedical equipment, and engineering solutions for healthcare applications.",
+        "required_skills": [
+            "Biomedical Engineering",
+            "Medical Device Design",
+            "Biomaterials",
+            "Biomechanics",
+            "CAD"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Architect",
+        "description": "Designs buildings and develops architectural plans, layouts, and construction documents.",
+        "required_skills": [
+            "Architecture",
+            "AutoCAD",
+            "Revit",
+            "Building Design",
+            "Architectural Drafting"
+        ],
+        "salary_range": "$45,000-$110,000/year"
+    },
+    {
+        "title": "Landscape Architect",
+        "description": "Designs outdoor spaces, parks, gardens, and landscape infrastructure.",
+        "required_skills": [
+            "Landscape Architecture",
+            "AutoCAD",
+            "Site Planning",
+            "Landscape Design",
+            "GIS"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Interior Architect",
+        "description": "Designs functional interior spaces and develops architectural interior plans.",
+        "required_skills": [
+            "Interior Architecture",
+            "AutoCAD",
+            "Revit",
+            "Space Planning",
+            "3D Modeling"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "Urban Planner",
+        "description": "Develops plans for land use, transportation, housing, and urban development.",
+        "required_skills": [
+            "Urban Planning",
+            "GIS",
+            "Land Use Planning",
+            "Urban Design",
+            "Spatial Analysis"
+        ],
+        "salary_range": "$45,000-$105,000/year"
+    },
+    {
+        "title": "Architectural Draftsman",
+        "description": "Creates detailed technical drawings and architectural plans for construction projects.",
+        "required_skills": [
+            "AutoCAD",
+            "Architectural Drafting",
+            "Revit",
+            "Technical Drawing",
+            "Building Codes"
+        ],
+        "salary_range": "$35,000-$75,000/year"
+    },
+    {
+        "title": "BIM Modeler",
+        "description": "Creates and manages digital building information models for architecture and construction projects.",
+        "required_skills": [
+            "BIM",
+            "Revit",
+            "Navisworks",
+            "3D Modeling",
+            "Construction Documentation"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "CAD Designer",
+        "description": "Creates technical drawings and computer-aided designs for engineering and construction projects.",
+        "required_skills": [
+            "AutoCAD",
+            "CAD Drafting",
+            "Technical Drawing",
+            "3D Modeling",
+            "Engineering Design"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "Construction Manager",
+        "description": "Plans and oversees construction projects, schedules, resources, and site operations.",
+        "required_skills": [
+            "Construction Management",
+            "Project Scheduling",
+            "Construction Estimation",
+            "Building Codes",
+            "Construction Planning"
+        ],
+        "salary_range": "$60,000-$140,000/year"
+    },
+    {
+        "title": "Site Engineer",
+        "description": "Supervises technical construction activities and ensures work follows engineering plans.",
+        "required_skills": [
+            "Site Engineering",
+            "Construction Drawings",
+            "AutoCAD",
+            "Quantity Estimation",
+            "Construction Surveying"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Quantity Surveyor",
+        "description": "Estimates construction costs, prepares bills of quantities, and manages project costs.",
+        "required_skills": [
+            "Quantity Surveying",
+            "Cost Estimation",
+            "BOQ Preparation",
+            "Construction Measurement",
+            "Cost Control"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Construction Estimator",
+        "description": "Calculates material, labor, equipment, and project costs for construction bids.",
+        "required_skills": [
+            "Construction Estimation",
+            "Quantity Takeoff",
+            "Cost Analysis",
+            "BOQ Preparation",
+            "Construction Pricing"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Building Inspector",
+        "description": "Inspects buildings and construction work for compliance with building codes and regulations.",
+        "required_skills": [
+            "Building Inspection",
+            "Building Codes",
+            "Structural Inspection",
+            "Construction Standards",
+            "Safety Regulations"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Surveyor",
+        "description": "Measures land, boundaries, elevations, and construction locations using surveying equipment.",
+        "required_skills": [
+            "Land Surveying",
+            "Total Station",
+            "GPS Surveying",
+            "Leveling",
+            "AutoCAD Civil 3D"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "Construction Safety Engineer",
+        "description": "Develops and monitors technical safety procedures for construction sites.",
+        "required_skills": [
+            "Construction Safety",
+            "Risk Assessment",
+            "OSHA Standards",
+            "Safety Engineering",
+            "Hazard Analysis"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Electrician",
+        "description": "Installs, maintains, and repairs electrical wiring, circuits, and electrical equipment.",
+        "required_skills": [
+            "Electrical Wiring",
+            "Circuit Installation",
+            "Electrical Testing",
+            "Electrical Codes",
+            "Motor Controls"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Industrial Electrician",
+        "description": "Installs and maintains electrical systems and machinery in industrial facilities.",
+        "required_skills": [
+            "Industrial Electrical Systems",
+            "Motor Controls",
+            "PLC Wiring",
+            "Electrical Troubleshooting",
+            "Electrical Testing"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Plumber",
+        "description": "Installs, repairs, and maintains water supply, drainage, and piping systems.",
+        "required_skills": [
+            "Plumbing",
+            "Pipe Installation",
+            "Drainage Systems",
+            "Water Supply Systems",
+            "Pipe Fitting"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "HVAC Technician",
+        "description": "Installs, maintains, and repairs heating, ventilation, and air-conditioning systems.",
+        "required_skills": [
+            "HVAC",
+            "Refrigeration",
+            "Air Conditioning",
+            "Heating Systems",
+            "HVAC Troubleshooting"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Welder",
+        "description": "Joins and repairs metal components using various welding processes.",
+        "required_skills": [
+            "MIG Welding",
+            "TIG Welding",
+            "Arc Welding",
+            "Metal Fabrication",
+            "Welding Safety"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Pipefitter",
+        "description": "Installs and maintains industrial piping systems for fluid and gas transport.",
+        "required_skills": [
+            "Pipefitting",
+            "Pipe Welding",
+            "Piping Systems",
+            "Blueprint Reading",
+            "Pipe Fabrication"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Carpenter",
+        "description": "Constructs and installs wooden structures, fixtures, and building components.",
+        "required_skills": [
+            "Carpentry",
+            "Woodworking",
+            "Blueprint Reading",
+            "Framing",
+            "Cabinet Installation"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Mason",
+        "description": "Constructs walls, foundations, and other structures using brick, block, and stone.",
+        "required_skills": [
+            "Masonry",
+            "Bricklaying",
+            "Concrete Masonry",
+            "Mortar Mixing",
+            "Construction Drawing Reading"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Concrete Finisher",
+        "description": "Places, levels, smooths, and finishes concrete surfaces for construction projects.",
+        "required_skills": [
+            "Concrete Finishing",
+            "Concrete Placement",
+            "Concrete Leveling",
+            "Surface Finishing",
+            "Concrete Curing"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Roofer",
+        "description": "Installs, repairs, and maintains roofing systems on residential and commercial buildings.",
+        "required_skills": [
+            "Roof Installation",
+            "Roof Repair",
+            "Waterproofing",
+            "Roofing Materials",
+            "Roof Measurement"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Glazier",
+        "description": "Installs and repairs glass panels, windows, doors, and architectural glazing systems.",
+        "required_skills": [
+            "Glass Installation",
+            "Glazing",
+            "Window Installation",
+            "Glass Cutting",
+            "Sealant Application"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Steel Fabricator",
+        "description": "Cuts, shapes, and assembles structural steel components for construction projects.",
+        "required_skills": [
+            "Steel Fabrication",
+            "Metal Cutting",
+            "Welding",
+            "Blueprint Reading",
+            "Structural Steel Assembly"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Heavy Equipment Operator",
+        "description": "Operates construction machinery such as excavators, loaders, and bulldozers.",
+        "required_skills": [
+            "Heavy Equipment Operation",
+            "Excavator Operation",
+            "Bulldozer Operation",
+            "Loader Operation",
+            "Equipment Safety"
+        ],
+        "salary_range": "$30,000-$70,000/year"
+    },
+    {
+        "title": "Crane Operator",
+        "description": "Operates cranes to lift and position heavy materials and construction components.",
+        "required_skills": [
+            "Crane Operation",
+            "Rigging",
+            "Load Calculation",
+            "Crane Inspection",
+            "Lifting Procedures"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "AutoCAD Technician",
+        "description": "Produces precise 2D and 3D technical drawings for engineering and construction projects.",
+        "required_skills": [
+            "AutoCAD",
+            "2D Drafting",
+            "3D Modeling",
+            "Technical Drawing",
+            "CAD Standards"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Solar Panel Installer",
+        "description": "Installs and connects photovoltaic solar panel systems for residential and commercial applications.",
+        "required_skills": [
+            "Solar PV Installation",
+            "Electrical Wiring",
+            "Photovoltaic Systems",
+            "Solar Inverter Installation",
+            "Electrical Testing"
+        ],
+        "salary_range": "$30,000-$75,000/year"
+    },
+    {
+        "title": "Elevator Technician",
+        "description": "Installs, maintains, inspects, and repairs elevator and escalator systems.",
+        "required_skills": [
+            "Elevator Systems",
+            "Electrical Troubleshooting",
+            "Mechanical Systems",
+            "Control Systems",
+            "Elevator Maintenance"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Financial Analyst",
+        "description": "Analyzes financial data, budgets, investments, and business performance to support financial decisions.",
+        "required_skills": [
+            "Financial Analysis",
+            "Financial Modeling",
+            "Excel",
+            "Budgeting",
+            "Financial Forecasting"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Investment Analyst",
+        "description": "Researches investments, securities, markets, and financial performance to evaluate investment opportunities.",
+        "required_skills": [
+            "Investment Analysis",
+            "Financial Modeling",
+            "Equity Research",
+            "Valuation",
+            "Market Analysis"
+        ],
+        "salary_range": "$60,000-$130,000/year"
+    },
+    {
+        "title": "Investment Banker",
+        "description": "Advises organizations on mergers, acquisitions, capital raising, and financial transactions.",
+        "required_skills": [
+            "Investment Banking",
+            "Financial Modeling",
+            "Valuation",
+            "Mergers And Acquisitions",
+            "Capital Markets"
+        ],
+        "salary_range": "$80,000-$200,000/year"
+    },
+    {
+        "title": "Portfolio Manager",
+        "description": "Manages investment portfolios and develops strategies based on financial market analysis.",
+        "required_skills": [
+            "Portfolio Management",
+            "Asset Allocation",
+            "Risk Analysis",
+            "Investment Analysis",
+            "Financial Markets"
+        ],
+        "salary_range": "$80,000-$200,000/year"
+    },
+    {
+        "title": "Financial Planner",
+        "description": "Develops financial plans covering investments, retirement, taxation, and wealth management.",
+        "required_skills": [
+            "Financial Planning",
+            "Investment Planning",
+            "Retirement Planning",
+            "Tax Planning",
+            "Wealth Management"
+        ],
+        "salary_range": "$50,000-$120,000/year"
+    },
+    {
+        "title": "Risk Analyst",
+        "description": "Identifies and evaluates financial and operational risks affecting organizations.",
+        "required_skills": [
+            "Risk Analysis",
+            "Financial Modeling",
+            "Risk Assessment",
+            "Statistical Analysis",
+            "Risk Management"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Credit Analyst",
+        "description": "Evaluates credit applications, financial statements, and borrower risk for lending decisions.",
+        "required_skills": [
+            "Credit Analysis",
+            "Financial Statement Analysis",
+            "Credit Risk Assessment",
+            "Financial Modeling",
+            "Loan Underwriting"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Treasury Analyst",
+        "description": "Manages cash flow analysis, liquidity planning, and corporate treasury operations.",
+        "required_skills": [
+            "Treasury Management",
+            "Cash Flow Analysis",
+            "Liquidity Management",
+            "Financial Forecasting",
+            "Excel"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Tax Accountant",
+        "description": "Prepares tax calculations, returns, records, and tax-related financial reports.",
+        "required_skills": [
+            "Tax Accounting",
+            "Tax Preparation",
+            "Income Tax",
+            "Tax Compliance",
+            "Accounting"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Tax Auditor",
+        "description": "Examines financial records and tax documents to verify tax compliance and identify discrepancies.",
+        "required_skills": [
+            "Tax Auditing",
+            "Tax Law",
+            "Financial Auditing",
+            "Accounting",
+            "Tax Compliance"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Internal Auditor",
+        "description": "Reviews internal financial controls, accounting processes, and organizational risk controls.",
+        "required_skills": [
+            "Internal Auditing",
+            "Financial Auditing",
+            "Internal Controls",
+            "Risk Assessment",
+            "Accounting"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "External Auditor",
+        "description": "Performs independent audits of financial statements and accounting records.",
+        "required_skills": [
+            "External Auditing",
+            "Financial Statement Analysis",
+            "GAAP",
+            "IFRS",
+            "Audit Procedures"
+        ],
+        "salary_range": "$50,000-$120,000/year"
+    },
+    {
+        "title": "Forensic Accountant",
+        "description": "Investigates financial records to identify fraud, financial misconduct, and accounting irregularities.",
+        "required_skills": [
+            "Forensic Accounting",
+            "Financial Investigation",
+            "Fraud Detection",
+            "Data Analysis",
+            "Financial Auditing"
+        ],
+        "salary_range": "$55,000-$130,000/year"
+    },
+    {
+        "title": "Management Accountant",
+        "description": "Analyzes internal financial information to support budgeting, costing, and business planning.",
+        "required_skills": [
+            "Management Accounting",
+            "Cost Accounting",
+            "Budgeting",
+            "Financial Analysis",
+            "Variance Analysis"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Cost Accountant",
+        "description": "Analyzes production costs, inventory costs, and cost-control information for businesses.",
+        "required_skills": [
+            "Cost Accounting",
+            "Cost Analysis",
+            "Inventory Accounting",
+            "Variance Analysis",
+            "Budgeting"
+        ],
+        "salary_range": "$50,000-$105,000/year"
+    },
+    {
+        "title": "Payroll Manager",
+        "description": "Manages payroll calculations, employee compensation records, deductions, and payroll compliance.",
+        "required_skills": [
+            "Payroll Processing",
+            "Payroll Accounting",
+            "Tax Withholding",
+            "HRIS",
+            "Payroll Software"
+        ],
+        "salary_range": "$50,000-$105,000/year"
+    },
+    {
+        "title": "Accounts Payable Specialist",
+        "description": "Processes supplier invoices, payments, and accounts payable records.",
+        "required_skills": [
+            "Accounts Payable",
+            "Invoice Processing",
+            "Accounting Software",
+            "Payment Processing",
+            "Reconciliation"
+        ],
+        "salary_range": "$35,000-$70,000/year"
+    },
+    {
+        "title": "Accounts Receivable Specialist",
+        "description": "Manages customer invoices, collections records, payments, and receivable reconciliations.",
+        "required_skills": [
+            "Accounts Receivable",
+            "Invoice Management",
+            "Payment Processing",
+            "Account Reconciliation",
+            "Accounting Software"
+        ],
+        "salary_range": "$35,000-$70,000/year"
+    },
+    {
+        "title": "Bookkeeper",
+        "description": "Maintains financial records, transactions, ledgers, and routine accounting documentation.",
+        "required_skills": [
+            "Bookkeeping",
+            "Double-Entry Accounting",
+            "Bank Reconciliation",
+            "General Ledger",
+            "Accounting Software"
+        ],
+        "salary_range": "$30,000-$65,000/year"
+    },
+    {
+        "title": "Budget Analyst",
+        "description": "Analyzes organizational budgets, expenditures, forecasts, and financial resource allocation.",
+        "required_skills": [
+            "Budget Analysis",
+            "Financial Forecasting",
+            "Budget Preparation",
+            "Variance Analysis",
+            "Excel"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Compliance Analyst",
+        "description": "Reviews business operations and records to ensure compliance with applicable regulations and policies.",
+        "required_skills": [
+            "Regulatory Compliance",
+            "Compliance Monitoring",
+            "Risk Assessment",
+            "Audit Procedures",
+            "Compliance Reporting"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Corporate Lawyer",
+        "description": "Provides legal services related to companies, contracts, corporate transactions, and business regulations.",
+        "required_skills": [
+            "Corporate Law",
+            "Contract Law",
+            "Company Law",
+            "Legal Research",
+            "Contract Drafting"
+        ],
+        "salary_range": "$70,000-$200,000/year"
+    },
+    {
+        "title": "Tax Lawyer",
+        "description": "Advises individuals and organizations on tax regulations, disputes, and tax-related legal matters.",
+        "required_skills": [
+            "Tax Law",
+            "Tax Litigation",
+            "Tax Regulations",
+            "Legal Research",
+            "Tax Compliance"
+        ],
+        "salary_range": "$75,000-$200,000/year"
+    },
+    {
+        "title": "Contract Lawyer",
+        "description": "Drafts, reviews, negotiates, and interprets legal contracts and agreements.",
+        "required_skills": [
+            "Contract Law",
+            "Contract Drafting",
+            "Contract Review",
+            "Legal Research",
+            "Commercial Law"
+        ],
+        "salary_range": "$65,000-$180,000/year"
+    },
+    {
+        "title": "Intellectual Property Lawyer",
+        "description": "Handles legal matters involving patents, trademarks, copyrights, and intellectual property rights.",
+        "required_skills": [
+            "Intellectual Property Law",
+            "Patent Law",
+            "Trademark Law",
+            "Copyright Law",
+            "Legal Research"
+        ],
+        "salary_range": "$70,000-$200,000/year"
+    },
+    {
+        "title": "Employment Lawyer",
+        "description": "Handles legal matters involving employment contracts, workplace regulations, and labor disputes.",
+        "required_skills": [
+            "Employment Law",
+            "Labor Law",
+            "Employment Contracts",
+            "Legal Research",
+            "Labor Regulations"
+        ],
+        "salary_range": "$65,000-$180,000/year"
+    },
+    {
+        "title": "Corporate Compliance Officer",
+        "description": "Develops and monitors compliance programs to ensure organizations follow legal and regulatory requirements.",
+        "required_skills": [
+            "Corporate Compliance",
+            "Regulatory Analysis",
+            "Compliance Auditing",
+            "Risk Management",
+            "Compliance Reporting"
+        ],
+        "salary_range": "$60,000-$140,000/year"
+    },
+    {
+        "title": "Legal Researcher",
+        "description": "Conducts legal research and analyzes statutes, regulations, cases, and legal precedents.",
+        "required_skills": [
+            "Legal Research",
+            "Case Law Analysis",
+            "Statutory Interpretation",
+            "Legal Databases",
+            "Legal Writing"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Paralegal",
+        "description": "Supports legal professionals by preparing documents, conducting legal research, and organizing case records.",
+        "required_skills": [
+            "Legal Research",
+            "Legal Documentation",
+            "Case Management",
+            "Legal Databases",
+            "Document Preparation"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Litigation Assistant",
+        "description": "Supports litigation processes through case documentation, filings, evidence organization, and legal research.",
+        "required_skills": [
+            "Litigation Support",
+            "Legal Research",
+            "Court Filing",
+            "Case Documentation",
+            "Legal Databases"
+        ],
+        "salary_range": "$35,000-$75,000/year"
+    },
+    {
+        "title": "SEO Specialist",
+        "description": "Improves website search rankings through technical and content-based search engine optimization.",
+        "required_skills": [
+            "SEO",
+            "Keyword Research",
+            "Google Search Console",
+            "Technical SEO",
+            "SEO Analytics"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Digital Marketing Specialist",
+        "description": "Plans and executes digital marketing campaigns across search, social media, email, and online channels.",
+        "required_skills": [
+            "Digital Marketing",
+            "Google Ads",
+            "Social Media Marketing",
+            "Email Marketing",
+            "Web Analytics"
+        ],
+        "salary_range": "$40,000-$95,000/year"
+    },
+    {
+        "title": "Search Engine Marketing Specialist",
+        "description": "Manages paid search campaigns and optimizes advertising performance across search engines.",
+        "required_skills": [
+            "Search Engine Marketing",
+            "Google Ads",
+            "PPC Advertising",
+            "Keyword Research",
+            "Conversion Tracking"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Content Marketing Specialist",
+        "description": "Develops and manages content strategies designed to attract and engage target audiences.",
+        "required_skills": [
+            "Content Marketing",
+            "Content Strategy",
+            "SEO",
+            "Keyword Research",
+            "Content Analytics"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Social Media Marketing Specialist",
+        "description": "Plans and manages social media campaigns, content, advertising, and performance analytics.",
+        "required_skills": [
+            "Social Media Marketing",
+            "Social Media Advertising",
+            "Content Scheduling",
+            "Social Analytics",
+            "Meta Ads"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "Email Marketing Specialist",
+        "description": "Creates and manages email campaigns, automation workflows, segmentation, and performance analysis.",
+        "required_skills": [
+            "Email Marketing",
+            "Marketing Automation",
+            "Email Segmentation",
+            "A/B Testing",
+            "Email Analytics"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Marketing Analyst",
+        "description": "Analyzes marketing data, customer behavior, campaign performance, and market trends.",
+        "required_skills": [
+            "Marketing Analytics",
+            "Data Analysis",
+            "Market Research",
+            "Google Analytics",
+            "Statistical Analysis"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Market Research Analyst",
+        "description": "Collects and analyzes market, customer, competitor, and industry data for business decisions.",
+        "required_skills": [
+            "Market Research",
+            "Survey Design",
+            "Data Analysis",
+            "Statistical Analysis",
+            "Competitive Analysis"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Brand Manager",
+        "description": "Develops and manages brand positioning, campaigns, market analysis, and brand performance.",
+        "required_skills": [
+            "Brand Management",
+            "Market Research",
+            "Marketing Strategy",
+            "Brand Analytics",
+            "Campaign Management"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Product Marketing Manager",
+        "description": "Develops marketing strategies, positioning, messaging, and launch plans for products.",
+        "required_skills": [
+            "Product Marketing",
+            "Market Research",
+            "Go-To-Market Strategy",
+            "Competitive Analysis",
+            "Product Positioning"
+        ],
+        "salary_range": "$60,000-$140,000/year"
+    },
+    {
+        "title": "Sales Operations Analyst",
+        "description": "Analyzes sales data, processes, forecasting, and performance metrics to optimize sales operations.",
+        "required_skills": [
+            "Sales Analytics",
+            "Sales Forecasting",
+            "CRM Systems",
+            "Data Analysis",
+            "Revenue Reporting"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Human Resources Specialist",
+        "description": "Handles recruitment processes, employee records, HR systems, and employment documentation.",
+        "required_skills": [
+            "Human Resources Management",
+            "HRIS",
+            "Recruitment",
+            "Employee Records Management",
+            "Employment Law"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Recruitment Specialist",
+        "description": "Manages candidate sourcing, screening, applicant tracking, and recruitment processes.",
+        "required_skills": [
+            "Recruitment",
+            "Applicant Tracking Systems",
+            "Candidate Sourcing",
+            "Resume Screening",
+            "HRIS"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Compensation Analyst",
+        "description": "Analyzes salary structures, compensation data, benefits, and market pay information.",
+        "required_skills": [
+            "Compensation Analysis",
+            "Salary Benchmarking",
+            "Benefits Analysis",
+            "HR Analytics",
+            "Excel"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Benefits Specialist",
+        "description": "Administers employee benefits programs, eligibility records, and benefits-related processes.",
+        "required_skills": [
+            "Benefits Administration",
+            "HRIS",
+            "Benefits Compliance",
+            "Payroll Systems",
+            "Employee Benefits Analysis"
+        ],
+        "salary_range": "$40,000-$90,000/year"
+    },
+    {
+        "title": "Human Resources Analyst",
+        "description": "Analyzes workforce data, HR metrics, employee records, and organizational trends.",
+        "required_skills": [
+            "HR Analytics",
+            "HRIS",
+            "Workforce Analytics",
+            "Data Analysis",
+            "Employment Statistics"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Procurement Analyst",
+        "description": "Analyzes purchasing data, supplier performance, costs, and procurement processes.",
+        "required_skills": [
+            "Procurement",
+            "Spend Analysis",
+            "Supplier Analysis",
+            "Contract Management",
+            "Procurement Software"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Supply Chain Analyst",
+        "description": "Analyzes supply chain data, inventory, logistics, demand, and operational performance.",
+        "required_skills": [
+            "Supply Chain Management",
+            "Inventory Analysis",
+            "Demand Forecasting",
+            "Logistics Analytics",
+            "ERP Systems"
+        ],
+        "salary_range": "$45,000-$105,000/year"
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "description": "Transforms business data into analytical reports, dashboards, and performance insights.",
+        "required_skills": [
+            "Business Intelligence",
+            "SQL",
+            "Power BI",
+            "Data Visualization",
+            "Data Analysis"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Business Analyst",
+        "description": "Analyzes business processes, requirements, systems, and operational data to support business solutions.",
+        "required_skills": [
+            "Business Analysis",
+            "Requirements Analysis",
+            "Process Modeling",
+            "SQL",
+            "Data Analysis"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Cybersecurity Analyst",
+        "description": "Monitors systems and networks for security threats, vulnerabilities, and suspicious activity.",
+        "required_skills": [
+            "Cybersecurity",
+            "Network Security",
+            "SIEM",
+            "Threat Detection",
+            "Vulnerability Assessment"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Network Administrator",
+        "description": "Installs, configures, and maintains computer networks and network infrastructure.",
+        "required_skills": [
+            "Computer Networking",
+            "TCP/IP",
+            "Network Configuration",
+            "Cisco Networking",
+            "Network Troubleshooting"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Cloud Engineer",
+        "description": "Designs, deploys, and maintains cloud infrastructure and cloud-based services.",
+        "required_skills": [
+            "Cloud Computing",
+            "AWS",
+            "Azure",
+            "Linux",
+            "Infrastructure As Code"
+        ],
+        "salary_range": "$65,000-$140,000/year"
+    },
+    {
+        "title": "DevOps Engineer",
+        "description": "Automates software delivery, infrastructure deployment, and development operations.",
+        "required_skills": [
+            "DevOps",
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "Linux"
+        ],
+        "salary_range": "$70,000-$150,000/year"
+    },
+    {
+        "title": "Database Administrator",
+        "description": "Manages database systems, performance, security, backups, and data availability.",
+        "required_skills": [
+            "Database Administration",
+            "SQL",
+            "MySQL",
+            "PostgreSQL",
+            "Database Backup"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Systems Administrator",
+        "description": "Maintains servers, operating systems, system configurations, and IT infrastructure.",
+        "required_skills": [
+            "System Administration",
+            "Linux",
+            "Windows Server",
+            "Active Directory",
+            "Server Management"
+        ],
+        "salary_range": "$45,000-$105,000/year"
+    },
+    {
+        "title": "IT Support Specialist",
+        "description": "Diagnoses and resolves hardware, software, operating system, and network issues.",
+        "required_skills": [
+            "IT Support",
+            "Hardware Troubleshooting",
+            "Operating Systems",
+            "Network Troubleshooting",
+            "Help Desk Systems"
+        ],
+        "salary_range": "$35,000-$75,000/year"
+    },
+    {
+        "title": "Cloud Security Engineer",
+        "description": "Secures cloud infrastructure, applications, identities, and cloud-based data systems.",
+        "required_skills": [
+            "Cloud Security",
+            "AWS Security",
+            "Azure Security",
+            "IAM",
+            "Security Monitoring"
+        ],
+        "salary_range": "$70,000-$150,000/year"
+    },
+    {
+        "title": "Penetration Tester",
+        "description": "Performs authorized security testing to identify vulnerabilities in systems and networks.",
+        "required_skills": [
+            "Penetration Testing",
+            "Ethical Hacking",
+            "Kali Linux",
+            "Network Security",
+            "Vulnerability Assessment"
+        ],
+        "salary_range": "$60,000-$130,000/year"
+    },
+    {
+        "title": "Security Operations Center Analyst",
+        "description": "Monitors security events and investigates potential cyber threats within a security operations center.",
+        "required_skills": [
+            "SOC Operations",
+            "SIEM",
+            "Threat Intelligence",
+            "Incident Detection",
+            "Log Analysis"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "IT Auditor",
+        "description": "Evaluates information technology systems, controls, security processes, and compliance requirements.",
+        "required_skills": [
+            "IT Auditing",
+            "IT Controls",
+            "Cybersecurity",
+            "Risk Assessment",
+            "Compliance Auditing"
+        ],
+        "salary_range": "$55,000-$120,000/year"
+    },
+    {
+        "title": "Systems Architect",
+        "description": "Designs technical architectures for enterprise systems, infrastructure, and information technology environments.",
+        "required_skills": [
+            "Systems Architecture",
+            "Cloud Architecture",
+            "Network Architecture",
+            "System Design",
+            "Infrastructure Design"
+        ],
+        "salary_range": "$80,000-$170,000/year"
+    },
+    {
+        "title": "Mobile Application Developer",
+        "description": "Builds and maintains applications for Android and iOS mobile platforms.",
+        "required_skills": [
+            "Android Development",
+            "iOS Development",
+            "Kotlin",
+            "Swift",
+            "Mobile UI Development"
+        ],
+        "salary_range": "$55,000-$130,000/year"
+    },
+    {
+        "title": "Game Developer",
+        "description": "Develops interactive games using game engines, programming languages, and graphics technologies.",
+        "required_skills": [
+            "Game Development",
+            "Unity",
+            "Unreal Engine",
+            "C#",
+            "Game Physics"
+        ],
+        "salary_range": "$45,000-$120,000/year"
+    },
+    {
+        "title": "Embedded Systems Developer",
+        "description": "Develops software and firmware for embedded devices and hardware systems.",
+        "required_skills": [
+            "Embedded Systems",
+            "C",
+            "C++",
+            "Microcontrollers",
+            "Firmware Development"
+        ],
+        "salary_range": "$55,000-$125,000/year"
+    },
+    {
+        "title": "QA Automation Engineer",
+        "description": "Develops automated tests to verify software functionality, reliability, and performance.",
+        "required_skills": [
+            "Test Automation",
+            "Selenium",
+            "Python",
+            "API Testing",
+            "Test Frameworks"
+        ],
+        "salary_range": "$50,000-$115,000/year"
+    },
+    {
+        "title": "Software Quality Analyst",
+        "description": "Tests software applications and identifies functional, integration, and performance defects.",
+        "required_skills": [
+            "Software Testing",
+            "Manual Testing",
+            "Test Case Design",
+            "API Testing",
+            "Regression Testing"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Technical Support Engineer",
+        "description": "Provides technical diagnosis and resolution for software, hardware, and infrastructure issues.",
+        "required_skills": [
+            "Technical Support",
+            "Network Troubleshooting",
+            "System Administration",
+            "SQL",
+            "Log Analysis"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "IT Project Coordinator",
+        "description": "Coordinates technical project schedules, documentation, resources, and project activities.",
+        "required_skills": [
+            "IT Project Management",
+            "Project Scheduling",
+            "JIRA",
+            "Project Documentation",
+            "Agile Methods"
+        ],
+        "salary_range": "$45,000-$95,000/year"
+    },
+    {
+        "title": "Video Editor",
+        "description": "Edits video footage, audio, transitions, effects, and visual sequences for media productions.",
+        "required_skills": [
+            "Video Editing",
+            "Adobe Premiere Pro",
+            "DaVinci Resolve",
+            "After Effects",
+            "Color Grading"
+        ],
+        "salary_range": "$35,000-$90,000/year"
+    },
+    {
+        "title": "Motion Graphics Designer",
+        "description": "Creates animated graphics, visual effects, titles, and motion-based digital content.",
+        "required_skills": [
+            "Motion Graphics",
+            "Adobe After Effects",
+            "Cinema 4D",
+            "Animation",
+            "Visual Effects"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "3D Artist",
+        "description": "Creates three-dimensional models, environments, textures, and visual assets for digital media.",
+        "required_skills": [
+            "3D Modeling",
+            "Blender",
+            "Maya",
+            "Texturing",
+            "3D Rendering"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "Graphic Designer",
+        "description": "Creates visual designs for digital platforms, print media, branding, and marketing materials.",
+        "required_skills": [
+            "Graphic Design",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Typography",
+            "Layout Design"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "UI Designer",
+        "description": "Designs visual interfaces, layouts, components, and interaction elements for digital products.",
+        "required_skills": [
+            "UI Design",
+            "Figma",
+            "Adobe XD",
+            "Wireframing",
+            "Visual Design"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "UX Researcher",
+        "description": "Conducts structured research to analyze user behavior, needs, and digital product usability.",
+        "required_skills": [
+            "UX Research",
+            "User Testing",
+            "Usability Testing",
+            "Survey Design",
+            "Data Analysis"
+        ],
+        "salary_range": "$50,000-$110,000/year"
+    },
+    {
+        "title": "Illustrator",
+        "description": "Creates digital and traditional illustrations for publishing, advertising, entertainment, and media.",
+        "required_skills": [
+            "Digital Illustration",
+            "Adobe Illustrator",
+            "Procreate",
+            "Drawing",
+            "Visual Composition"
+        ],
+        "salary_range": "$30,000-$80,000/year"
+    },
+    {
+        "title": "Photographer",
+        "description": "Produces professional photographs for commercial, editorial, events, products, and media.",
+        "required_skills": [
+            "Photography",
+            "Digital Camera Operation",
+            "Adobe Lightroom",
+            "Photo Editing",
+            "Lighting Techniques"
+        ],
+        "salary_range": "$30,000-$85,000/year"
+    },
+    {
+        "title": "Animator",
+        "description": "Creates animated characters, objects, scenes, and visual sequences for media productions.",
+        "required_skills": [
+            "Animation",
+            "2D Animation",
+            "3D Animation",
+            "Maya",
+            "Blender"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "Sound Designer",
+        "description": "Creates and edits sound effects, audio environments, and sound elements for media productions.",
+        "required_skills": [
+            "Sound Design",
+            "Audio Editing",
+            "Pro Tools",
+            "Sound Mixing",
+            "Audio Recording"
+        ],
+        "salary_range": "$35,000-$90,000/year"
+    },
+    {
+        "title": "Audio Engineer",
+        "description": "Records, edits, mixes, and masters audio for music, film, broadcasting, and other productions.",
+        "required_skills": [
+            "Audio Engineering",
+            "Pro Tools",
+            "Audio Mixing",
+            "Audio Mastering",
+            "Sound Recording"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "Film Director",
+        "description": "Directs film and video productions by managing visual storytelling, scenes, and production execution.",
+        "required_skills": [
+            "Film Direction",
+            "Cinematography",
+            "Script Analysis",
+            "Shot Composition",
+            "Film Production"
+        ],
+        "salary_range": "$50,000-$200,000/year"
+    },
+    {
+        "title": "Cinematographer",
+        "description": "Designs and manages the visual photography and camera work for film and video productions.",
+        "required_skills": [
+            "Cinematography",
+            "Camera Operation",
+            "Lighting Design",
+            "Color Grading",
+            "Shot Composition"
+        ],
+        "salary_range": "$45,000-$150,000/year"
+    },
+    {
+        "title": "Broadcast Technician",
+        "description": "Operates and maintains technical equipment used for television, radio, and live broadcasting.",
+        "required_skills": [
+            "Broadcast Technology",
+            "Audio Engineering",
+            "Video Systems",
+            "Broadcast Equipment",
+            "Signal Processing"
+        ],
+        "salary_range": "$35,000-$85,000/year"
+    },
+    {
+        "title": "Journalist",
+        "description": "Researches, verifies, and produces news reports and journalistic content for media organizations.",
+        "required_skills": [
+            "Journalism",
+            "News Research",
+            "Investigative Research",
+            "News Writing",
+            "Fact Checking"
+        ],
+        "salary_range": "$30,000-$80,000/year"
+    },
+    {
+        "title": "Technical Writer",
+        "description": "Creates technical documentation, manuals, guides, and product-related instructional content.",
+        "required_skills": [
+            "Technical Writing",
+            "Documentation",
+            "API Documentation",
+            "Markdown",
+            "Information Architecture"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Airline Pilot",
+        "description": "Operates commercial aircraft and follows aviation procedures for passenger and cargo flights.",
+        "required_skills": [
+            "Aviation",
+            "Flight Operations",
+            "Aircraft Systems",
+            "Instrument Flight Rules",
+            "Commercial Pilot License"
+        ],
+        "salary_range": "$70,000-$200,000/year"
+    },
+    {
+        "title": "Flight Dispatcher",
+        "description": "Plans and monitors commercial flights by analyzing routes, weather, fuel, and operational requirements.",
+        "required_skills": [
+            "Flight Dispatch",
+            "Aviation Meteorology",
+            "Flight Planning",
+            "Navigation",
+            "Aircraft Performance"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Aircraft Maintenance Technician",
+        "description": "Inspects, maintains, repairs, and services aircraft systems and components.",
+        "required_skills": [
+            "Aircraft Maintenance",
+            "Aircraft Systems",
+            "Avionics",
+            "Airframe Maintenance",
+            "Powerplant Maintenance"
+        ],
+        "salary_range": "$45,000-$110,000/year"
+    },
+    {
+        "title": "Air Traffic Controller",
+        "description": "Manages aircraft movements and ensures safe separation of aircraft in controlled airspace.",
+        "required_skills": [
+            "Air Traffic Control",
+            "Radar Systems",
+            "Aviation Navigation",
+            "Airspace Management",
+            "Flight Procedures"
+        ],
+        "salary_range": "$60,000-$150,000/year"
+    },
+    {
+        "title": "Airport Operations Specialist",
+        "description": "Coordinates technical airport operations, facilities, aircraft movements, and aviation procedures.",
+        "required_skills": [
+            "Airport Operations",
+            "Aviation Regulations",
+            "Airside Operations",
+            "Airport Safety",
+            "Flight Operations"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Supply Chain Manager",
+        "description": "Plans and manages procurement, inventory, logistics, distribution, and supply chain operations.",
+        "required_skills": [
+            "Supply Chain Management",
+            "Inventory Management",
+            "Procurement",
+            "Demand Forecasting",
+            "ERP Systems"
+        ],
+        "salary_range": "$60,000-$140,000/year"
+    },
+    {
+        "title": "Logistics Coordinator",
+        "description": "Coordinates shipments, transportation schedules, inventory movements, and logistics documentation.",
+        "required_skills": [
+            "Logistics Management",
+            "Shipment Tracking",
+            "Transportation Planning",
+            "Inventory Management",
+            "Logistics Software"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    },
+    {
+        "title": "Warehouse Manager",
+        "description": "Manages warehouse operations, inventory control, storage systems, and order fulfillment.",
+        "required_skills": [
+            "Warehouse Management",
+            "Inventory Control",
+            "Warehouse Management Systems",
+            "Order Fulfillment",
+            "Barcode Systems"
+        ],
+        "salary_range": "$45,000-$100,000/year"
+    },
+    {
+        "title": "Freight Broker",
+        "description": "Arranges transportation of goods between shippers and carriers and manages freight transactions.",
+        "required_skills": [
+            "Freight Brokerage",
+            "Transportation Management",
+            "Freight Documentation",
+            "Route Planning",
+            "Logistics Software"
+        ],
+        "salary_range": "$40,000-$100,000/year"
+    },
+    {
+        "title": "Import Export Specialist",
+        "description": "Manages international shipment documentation, customs procedures, and import-export transactions.",
+        "required_skills": [
+            "Import Export Procedures",
+            "Customs Documentation",
+            "Trade Compliance",
+            "International Logistics",
+            "HS Codes"
+        ],
+        "salary_range": "$40,000-$95,000/year"
+    },
+    {
+        "title": "Procurement Specialist",
+        "description": "Sources materials, evaluates suppliers, processes purchase orders, and manages procurement records.",
+        "required_skills": [
+            "Procurement",
+            "Supplier Sourcing",
+            "Purchase Orders",
+            "Contract Management",
+            "ERP Systems"
+        ],
+        "salary_range": "$40,000-$95,000/year"
+    },
+    {
+        "title": "Hotel Manager",
+        "description": "Manages hotel operations including rooms, reservations, facilities, and hospitality services.",
+        "required_skills": [
+            "Hotel Management",
+            "Property Management Systems",
+            "Hotel Operations",
+            "Reservation Systems",
+            "Revenue Management"
+        ],
+        "salary_range": "$45,000-$120,000/year"
+    },
+    {
+        "title": "Chef",
+        "description": "Plans menus, prepares food, manages kitchen production, and maintains food preparation standards.",
+        "required_skills": [
+            "Culinary Arts",
+            "Food Preparation",
+            "Menu Planning",
+            "Food Safety",
+            "Kitchen Operations"
+        ],
+        "salary_range": "$35,000-$100,000/year"
+    },
+    {
+        "title": "Pastry Chef",
+        "description": "Prepares and develops pastries, desserts, breads, cakes, and confectionery products.",
+        "required_skills": [
+            "Pastry Arts",
+            "Baking",
+            "Confectionery",
+            "Cake Decoration",
+            "Food Safety"
+        ],
+        "salary_range": "$30,000-$85,000/year"
+    },
+    {
+        "title": "Restaurant Manager",
+        "description": "Manages restaurant operations, food service systems, inventory, and hospitality processes.",
+        "required_skills": [
+            "Restaurant Management",
+            "Food Service Operations",
+            "Inventory Management",
+            "POS Systems",
+            "Food Safety"
+        ],
+        "salary_range": "$40,000-$95,000/year"
+    },
+    {
+        "title": "Event Operations Coordinator",
+        "description": "Plans and coordinates the operational logistics, venues, equipment, and schedules for events.",
+        "required_skills": [
+            "Event Operations",
+            "Event Planning Software",
+            "Venue Management",
+            "Event Logistics",
+            "Scheduling Systems"
+        ],
+        "salary_range": "$35,000-$80,000/year"
+    }
+,
+    {
+        "title": "Software Engineer",
+        "description": "Designs, develops, and maintains software applications using modern programming languages.",
+        "required_skills": ["Python", "Java", "C++", "Problem-Solving", "Git", "SQL", "Docker"],
+        "salary_range": "PKR 150,000 - 300,000/year"
+    },
+    {
+        "title": "AI / Machine Learning Engineer",
+        "description": "Develops AI models, neural networks, and automation systems.",
+        "required_skills": ["Python", "Machine Learning", "Deep Learning", "Artificial Intelligence", "TensorFlow", "Pytorch"],
+        "salary_range": "PKR 250,000 - 450,000/year"
+    },
+    {
+        "title": "Data Scientist",
+        "description": "Analyzes large datasets to extract insights and build predictive models.",
+        "required_skills": ["Python", "Data Science", "Pandas", "Numpy", "SQL", "Machine Learning"],
+        "salary_range": "PKR 200,000 - 350,000/year"
+    },
+    {
+        "title": "Full Stack Web Developer",
+        "description": "Develops both frontend and backend components of web applications.",
+        "required_skills": ["JavaScript", "React", "Node.js", "HTML", "CSS", "SQL", "Git"],
+        "salary_range": "PKR 150,000 - 300,000/year"
+    }
+]
