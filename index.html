@@ -96,7 +96,7 @@
                 html += `<h2 style="margin-top:20px;">🎯 Recommended Careers</h2>`;
                 
                 data.job_matches.forEach(job => {
-                    let color = job.is_eligible ? "green-box" : "red-box";
+                    let color = job.matched_percentage >= 40 ? "green-box" : "red-box";
                     let future = job.missing_skills.length > 0 ? job.missing_skills.join(", ") : "None, you are fully ready!";
                     
                     html += `
