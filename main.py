@@ -9,8 +9,9 @@ from PIL import Image
 from pdf2image import convert_from_path
 from docx import Document
 
-# Tesseract ka path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# Tesseract ka path (Smart Code: Local aur Cloud dono ke liye)
+if os.path.exists(r'C:\Program Files\Tesseract-OCR\tesseract.exe'):
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 app = FastAPI()
 UPLOAD_DIR = "uploads"
@@ -37,15 +38,17 @@ def extract_text_from_pdf(file_path: str) -> str:
             text += page.extract_text() or ""
     except:
         pass
-    
     if not text.strip():
         try:
-            images = convert_from_path(file_path, poppler_path=r'D:\poppler\Library\bin')
+            if os.path.exists(r'D:\poppler\Library\bin'):
+                images = convert_from_path(file_path, poppler_path=r'D:\poppler\Library\bin')
+            else:
+                images = convert_from_path(file_path)
+
             for img in images:
                 text += pytesseract.image_to_string(img) + " "
         except Exception as e:
             print(f"OCR Error: {e}")
-    
     return text
 
 def extract_text_from_docx(file_path: str) -> str:
