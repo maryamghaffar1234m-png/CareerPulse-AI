@@ -69,12 +69,12 @@ cd CareerPulse-AI/backend
 3. Run the server:                      python -m uvicorn main:app --reload
 4. Open http://127.0.0.1:8000 in your browser
 
-    13. Demo
+## 13. Demo
 The project is live! Access it here: https://career-pulse-ai.fastapicloud.dev
 (Note: For best results, upload a text-based PDF or DOCX file).
 
 
-14. Technologies
+## 14. Technologies
 Backend: Python, FastAPI
 
 Database: JSON Files (jobs.json, skills.json)
