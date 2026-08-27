@@ -1,5 +1,6 @@
 fastapi[standard]
 uvicorn
+pdfplumber
 PyPDF2
 python-docx
 pytesseract
