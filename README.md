@@ -6,68 +6,73 @@
 
 **[🌐 Live Demo: career-pulse-ai.fastapicloud.dev](https://career-pulse-ai.fastapicloud.dev)**
 
-![Status](https://img.shields.io/badge/Status-Live-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-FastAPI%20%7C%20Python-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ---
 
-## 💡 About The Project
+## 1. Problem Statement
+Job seekers often struggle to understand if their skills match a specific job role. They waste time applying to jobs they are unqualified for, or miss out on roles they could easily get with a little upskilling. Manually comparing a resume against hundreds of job descriptions is time-consuming and prone to human error.
 
-CareerPulse AI is an intelligent web application designed to bridge the gap between job seekers and the job market. It goes beyond simple keyword matching by analyzing your CV's **education background, experience, and technical skills** to predict your best career paths.
+## 2. Objective
+To build an intelligent web application that automatically extracts skills from a user's CV (including education and experience context) and recommends the **Top 10 most suitable career paths** with a match percentage and a personalized list of "Skills to Learn" (The Gap).
 
-It calculates your eligibility score for each job, shows you **what skills you already have**, and creates a personalized roadmap of **what you need to learn next** to get hired.
+## 3. Dataset
+The system uses two primary JSON files:
+- **`skills.json`**: A database of 300+ technical and soft skills (Python, Java, AI, Teaching, etc.).
+- **`jobs.json`**: A structured database of 200+ job profiles across various domains (IT, Medical, Engineering, Business, Teaching, etc.), each containing a description, salary range, and required skills.
 
-## ✨ Key Features
+## 4. Data Preprocessing
+- **Text Extraction:** CVs are parsed using `pdfplumber` for high-quality text extraction, with a fallback to `PyPDF2` and `python-docx` for Word files.
+- **OCR Handling:** For scanned PDFs and images, `pytesseract` is used locally to extract text. (Cloud limitations noted below).
+- **Normalization:** All text and skills are converted to lowercase to ensure case-insensitive matching.
+- **Filtering:** Soft skills (Communication, Leadership) are excluded from the primary technical scoring to avoid false matches (e.g., a Doctor matching a Chef because of soft skills).
 
-- **🧠 Smart Skill Extraction:** Automatically identifies 300+ technical and soft skills from your CV.
-- **🎯 Personalized Career Matching:** Compares your profile against a database of **200+ Job Profiles** (IT, Medical, Business, Engineering, Teaching, etc.).
-- **📊 Visual Match Score:** Displays an intuitive progress bar showing your exact match percentage for each job role.
-- **📈 Gap Analysis:** Clearly lists the "Future Skills to Learn" (The Gap) tailored for each career.
-- **📄 Multi-Format Support:** Accepts Text-based PDFs, Word (DOCX), and local Image (JPG/PNG) files.
-- **🎨 Modern UI:** Sleek, dark-themed, and fully responsive user interface.
+## 5. Exploratory Data Analysis (EDA)
+- The job database is categorized into distinct sectors (Tech, Medical, Education, Finance, etc.).
+- Analysis reveals that most jobs require a combination of 4-8 specific hard skills.
+- The "Skills Database" provides a broad vocabulary mapping, allowing the system to detect skills even if they are mentioned in the summary or experience section of the CV.
 
-## ⚙️ How It Works
+## 6. Model Architecture
+This is a **Rule-Based Expert System** (AI logic). It uses a weight-based scoring mechanism:
+1. **Skill Match Score (70% weight):** Calculates the percentage of required job skills found in the user's CV.
+2. **Education Context Score (30% weight):** A background detector checks for keywords (e.g., "Software Engineering", "MBBS") to add a bonus if the user's background perfectly aligns with the specific job domain.
 
-1. **User Uploads CV:** The system securely extracts raw text from the uploaded file.
-2. **Education Analysis:** Detects the user's educational background (e.g., Software Engineering, Medical).
-3. **Skill Extraction:** Cross-references the text with a comprehensive skills database.
-4. **Smart Matching:** Computes an eligibility score based on a 70% Skill match and 30% Education background match.
-5. **Roadmap Generation:** Returns the Top 10 matching careers with their salary ranges and specific missing skills.
+## 7. Algorithms Tested
+- **Simple Keyword Matching:** Initial version matched only exact keywords, leading to false positives.
+- **SpaCy + SkillNer (AI NLP):** Implemented and tested locally, but removed due to strict library conflicts on the free cloud hosting environment.
+- **Hybrid Scoring Algorithm (Final):** Finalized using Case-Insensitive Hard Skill Matching + Education Context Bonus to filter out irrelevant jobs and accurately rank candidates.
 
-> **⚠️ Note:** The live cloud version supports Text-Based PDFs and DOCX files. (Scanned PDFs and Images require advanced OCR tools like Tesseract, which are currently enabled in the local environment).
+## 8. Evaluation Metrics
+- **Match Percentage:** Calculated as `(Matched Hard Skills / Total Required Hard Skills) * 100`.
+- **Gap Analysis:** Identifies the remaining required skills (Missing Skills) to guide the user's learning path.
+- **Accuracy:** Manually tested against multiple CVs to ensure the top results are highly relevant to the user's specific field.
 
-## 🛠️ Tech Stack
+## 9. Results
+- The system successfully identifies a user's technical profile. For example, a Software Engineering student gets:
+  - **Software Engineer: 86% Match**
+  - **Programming Instructor: 60% Match**
+  - **AI/ML Engineer: 36% Match**
+- Each result clearly displays the salary range and the exact skills the user needs to learn (e.g., "SQL, Docker") to reach a 100% match.
 
-| Technology | Purpose |
-| :--- | :--- |
-| **Python** | Core Backend Language |
-| **FastAPI** | High-performance Web Framework & API |
-| **PyPDF2 / pdfplumber / python-docx** | CV Text Extraction |
-| **Pytesseract** | OCR for Images / Scanned PDFs (Local Setup) |
-| **HTML / CSS / JavaScript** | Modern Frontend Interface |
+## 10. Limitations
+- **Cloud OCR Limitation:** The current free FastAPI Cloud tier does not support system-level `Tesseract`/`Poppler` installations, limiting OCR support to the local environment.
+- **Static Knowledge Base:** The system relies on the predefined `jobs.json` and `skills.json`. It cannot understand highly contextual or nuanced "Creative Skills" found in non-standard CVs.
 
-## 🚀 Deployment
+## 12. Future Improvements
+- **True AI Integration:** Integrate OpenAI or Gemini APIs for fully generative Gap Analysis and Summary generation.
+- **Dynamic Database:** Implement a feature to scrape live job descriptions from LinkedIn or Indeed.
+- **Cloud OCR:** Upgrade hosting to support Docker environments for full scanned PDF and Image support.
 
-This project is currently live and hosted on **FastAPI Cloud** (Free Tier). 
-**Live URL:** [https://career-pulse-ai.fastapicloud.dev](https://career-pulse-ai.fastapicloud.dev)
-
-## 💻 Local Development
-
-To run this project on your own machine, follow these steps:
-
-**Prerequisites:** Python 3.11+, Tesseract OCR (for images)
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/maryamghaffar1234m-png/CareerPulse-AI.git
-   cd CareerPulse-AI/backend
+## 13. Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/maryamghaffar1234m-png/CareerPulse-AI.git
+cd CareerPulse-AI/backend
 2. Install dependencies
                                  pip install -r requirements.txt
 3.  Run the server
                                   python -m uvicorn main:app --reload
 4. Open your browser and visit:
                                     http://127.0.0.1:8000
+
    📄 License
 Distributed under the MIT License.
 
