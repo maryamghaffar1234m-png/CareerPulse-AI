@@ -56,30 +56,42 @@ This is a **Rule-Based Expert System** (AI logic). It uses a weight-based scorin
 - **Cloud OCR Limitation:** The current free FastAPI Cloud tier does not support system-level `Tesseract`/`Poppler` installations, limiting OCR support to the local environment.
 - **Static Knowledge Base:** The system relies on the predefined `jobs.json` and `skills.json`. It cannot understand highly contextual or nuanced "Creative Skills" found in non-standard CVs.
 
-## 12. Future Improvements
+## 11. Future Improvements
 - **True AI Integration:** Integrate OpenAI or Gemini APIs for fully generative Gap Analysis and Summary generation.
 - **Dynamic Database:** Implement a feature to scrape live job descriptions from LinkedIn or Indeed.
 - **Cloud OCR:** Upgrade hosting to support Docker environments for full scanned PDF and Image support.
 
-## 13. Installation
+## 12. Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/maryamghaffar1234m-png/CareerPulse-AI.git
-cd CareerPulse-AI/backend
-2. Install dependencies
-                                 pip install -r requirements.txt
-3.  Run the server
-                                  python -m uvicorn main:app --reload
-4. Open your browser and visit:
-                                    http://127.0.0.1:8000
+   git clone https://github.com/maryamghaffar1234m-png/CareerPulse-AI.git
+cd CareerPulse-AI/backend          
+2. Install dependencies:                pip install -r requirements.txt       
+3. Run the server:                      python -m uvicorn main:app --reload
+4. Open http://127.0.0.1:8000 in your browser
+   13. Demo
+The project is live! Access it here: https://career-pulse-ai.fastapicloud.dev
+(Note: For best results, upload a text-based PDF or DOCX file).
 
-   📄 License
-Distributed under the MIT License.
+14. Technologies
+Backend: Python, FastAPI
+
+Database: JSON Files (jobs.json, skills.json)
+
+Text Extraction: pdfplumber, PyPDF2, python-docx, Pytesseract (local)
+
+Frontend: HTML, CSS, JavaScript
+
+Hosting: FastAPI Cloud
 
 👩‍💻 Author: Maryam Ghaffar
 📧 Email: maryamghaffar1234m@gmail.com
-🔗 Portfolio: https://maryamghaffar1234m-png.github.io/Maryam_Portfolio/
-    LinkedIn: maryam-ghaffar-62551837b   
-    Made with ❤️ by Maryam Ghaffar – Software Engineering student at LCWU
+ Portfolio: https://maryamghaffar1234m-png.github.io/Maryam_Portfolio/
+ Linkedln: maryam-ghaffar-62551837b  
+Made with ❤️ by Maryam Ghaffar – Software Engineering student at LCWU
 
 © 2026 Maryam Ghaffar | Crafting digital experiences, one line at a time
+
+
+
+
+   
