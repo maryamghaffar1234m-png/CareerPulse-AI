@@ -76,19 +76,20 @@ def extract_text_from_pdf(file_path: str) -> str:
         except:
             pass
 
-    # 3. Agar ab bhi khali hai (Scanned PDF), toh OCR (Tesseract) use karo
+       # 3. Agar ab bhi khali hai (Scanned PDF), toh check karo OCR available hai ya nahi
     if not text.strip():
-        try:
-            if os.path.exists(r'D:\poppler\Library\bin'):
+        # Check karo ke system par Poppler/Tesseract installed hai ya nahi (Local laptop)
+        if os.path.exists(r'D:\poppler\Library\bin'):
+            try:
                 images = convert_from_path(file_path, poppler_path=r'D:\poppler\Library\bin')
-            else:
-                images = convert_from_path(file_path)
+                for img in images:
+                    text += pytesseract.image_to_string(img) + " "
+            except Exception as e:
+                print(f"OCR Error: {e}")
+        else:
+            # Cloud par tools install nahi hain, isliye user ko friendly message do
+            return "⚠️ Scanned PDF detected. Please upload a text-based PDF or DOCX file for analysis."
 
-            for img in images:
-                text += pytesseract.image_to_string(img) + " "
-        except Exception as e:
-            print(f"OCR Error: {e}")
-            
     return text
 
 def extract_text_from_docx(file_path: str) -> str:
