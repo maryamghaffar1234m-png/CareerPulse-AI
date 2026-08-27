@@ -180,3 +180,26 @@ async def upload_cv(file: UploadFile = File(...)):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+from fastapi import Request
+
+@app.middleware("http")
+async def handle_head_requests(request: Request, call_next):
+    if request.method == "HEAD":
+        request.scope["method"] = "GET"
+        response = await call_next(request)
+        response.body = b""
+        return response
+    return await call_next(request)
+from fastapi.responses import PlainTextResponse, Response
+
+# live URL 
+_BASE_URL = "https://your-app-name.fastapicloud.dev"
+
+@app.get("/robots.txt", response_class=PlainTextResponse, include_in_schema=False)
+async def robots_txt():
+    return "User-agent: *\nAllow: /\n" + f"Sitemap: {_BASE_URL}/sitemap.xml\n"
+
+@app.get("/sitemap.xml", include_in_schema=False)
+async def sitemap_xml():
+    content = f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>{_BASE_URL}</loc></url></urlset>'
+    return Response(content=content, media_type="application/xml")
