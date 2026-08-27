@@ -1,9 +1,10 @@
+import pdfplumber
 import os
 import shutil
 import json
 import pytesseract
-from fastapi import FastAPI, File, UploadFile, HTTPException
-from fastapi.responses import FileResponse
+from fastapi import FastAPI, File, UploadFile, HTTPException, Request
+from fastapi.responses import FileResponse, PlainTextResponse, Response
 from PyPDF2 import PdfReader
 from PIL import Image
 from pdf2image import convert_from_path
@@ -17,6 +18,29 @@ app = FastAPI()
 UPLOAD_DIR = "uploads"
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)
+
+# Apna live URL yahan paste karein (Isko change karna zaroori hai!)
+_BASE_URL = "https://career-pulse-ai.fastapicloud.dev"
+
+# HEAD Request Fix (Google ke liye)
+@app.middleware("http")
+async def handle_head_requests(request: Request, call_next):
+    if request.method == "HEAD":
+        request.scope["method"] = "GET"
+        response = await call_next(request)
+        response.body = b""
+        return response
+    return await call_next(request)
+
+# SEO: robots.txt aur sitemap.xml
+@app.get("/robots.txt", response_class=PlainTextResponse, include_in_schema=False)
+async def robots_txt():
+    return "User-agent: *\nAllow: /\n" + f"Sitemap: {_BASE_URL}/sitemap.xml\n"
+
+@app.get("/sitemap.xml", include_in_schema=False)
+async def sitemap_xml():
+    content = f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>{_BASE_URL}</loc></url></urlset>'
+    return Response(content=content, media_type="application/xml")
 
 def load_json_data(filename):
     try:
@@ -32,12 +56,27 @@ SOFT_SKILLS = ["communication", "leadership", "teamwork", "time management", "pr
 
 def extract_text_from_pdf(file_path: str) -> str:
     text = ""
+    
+    # 1. Sabse pehle pdfplumber try karo (best quality)
     try:
-        reader = PdfReader(file_path)
-        for page in reader.pages:
-            text += page.extract_text() or ""
+        with pdfplumber.open(file_path) as pdf:
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text + "\n"
     except:
         pass
+
+    # 2. Agar khali hai, toh PyPDF2 try karo
+    if not text.strip():
+        try:
+            reader = PdfReader(file_path)
+            for page in reader.pages:
+                text += page.extract_text() or ""
+        except:
+            pass
+
+    # 3. Agar ab bhi khali hai (Scanned PDF), toh OCR (Tesseract) use karo
     if not text.strip():
         try:
             if os.path.exists(r'D:\poppler\Library\bin'):
@@ -49,6 +88,7 @@ def extract_text_from_pdf(file_path: str) -> str:
                 text += pytesseract.image_to_string(img) + " "
         except Exception as e:
             print(f"OCR Error: {e}")
+            
     return text
 
 def extract_text_from_docx(file_path: str) -> str:
@@ -114,7 +154,6 @@ async def upload_cv(file: UploadFile = File(...)):
         if os.path.exists(file_path):
             os.remove(file_path)
 
-        # Education Background Logic
         text_lower_for_context = text.lower()
         education_background = []
         if "software engineering" in text_lower_for_context or "computer science" in text_lower_for_context or "bachelor" in text_lower_for_context or "it" in text_lower_for_context:
@@ -124,17 +163,14 @@ async def upload_cv(file: UploadFile = File(...)):
         if "teacher" in text_lower_for_context or "b.ed" in text_lower_for_context or "school" in text_lower_for_context:
             education_background.extend(["Primary School Teacher", "University Professor"])
 
-        # User ki Hard Skills ko lowercase mein convert karein (matching ke liye)
         user_hard_skills = [s for s in user_skills if s.lower() not in SOFT_SKILLS]
         user_hard_skills_lower = [s.lower() for s in user_hard_skills]
 
         job_matches = []
         for job in JOB_DATABASE:
-            # Jobs ki required skills ko lowercase mein convert karein
             required_skills = [s for s in job["required_skills"] if s.lower() not in SOFT_SKILLS]
             required_skills_lower = [s.lower() for s in required_skills]
             
-            # Case-Insensitive Matching Fix yahan hai!
             matched_skills = [s for s in required_skills if s.lower() in user_hard_skills_lower]
             missing_skills = [s for s in required_skills if s.lower() not in user_hard_skills_lower]
             
@@ -143,7 +179,6 @@ async def upload_cv(file: UploadFile = File(...)):
             else:
                 percentage = 0
             
-            # Education Bonus
             if job["title"] in education_background and len(matched_skills) > 0:
                 percentage = min(percentage + 20, 100)
             
@@ -180,26 +215,3 @@ async def upload_cv(file: UploadFile = File(...)):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-from fastapi import Request
-
-@app.middleware("http")
-async def handle_head_requests(request: Request, call_next):
-    if request.method == "HEAD":
-        request.scope["method"] = "GET"
-        response = await call_next(request)
-        response.body = b""
-        return response
-    return await call_next(request)
-from fastapi.responses import PlainTextResponse, Response
-
-# live URL 
-_BASE_URL = "https://your-app-name.fastapicloud.dev"
-
-@app.get("/robots.txt", response_class=PlainTextResponse, include_in_schema=False)
-async def robots_txt():
-    return "User-agent: *\nAllow: /\n" + f"Sitemap: {_BASE_URL}/sitemap.xml\n"
-
-@app.get("/sitemap.xml", include_in_schema=False)
-async def sitemap_xml():
-    content = f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>{_BASE_URL}</loc></url></urlset>'
-    return Response(content=content, media_type="application/xml")
