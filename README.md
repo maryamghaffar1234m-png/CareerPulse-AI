@@ -75,3 +75,6 @@ Distributed under the MIT License.
 📧 Email: maryamghaffar1234m@gmail.com
 🔗 Portfolio: https://maryamghaffar1234m-png.github.io/Maryam_Portfolio/
     LinkedIn: maryam-ghaffar-62551837b   
+    Made with ❤️ by Maryam Ghaffar – Software Engineering student at LCWU
+
+© 2026 Maryam Ghaffar | Crafting digital experiences, one line at a time
