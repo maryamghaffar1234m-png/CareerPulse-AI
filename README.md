@@ -63,15 +63,15 @@ To run this project on your own machine, follow these steps:
    git clone https://github.com/maryamghaffar1234m-png/CareerPulse-AI.git
    cd CareerPulse-AI/backend
 2. Install dependencies
-                 pip install -r requirements.txt
+                                 pip install -r requirements.txt
 3.  Run the server
-                python -m uvicorn main:app --reload
+                                  python -m uvicorn main:app --reload
 4. Open your browser and visit:
-                http://127.0.0.1:8000
+                                    http://127.0.0.1:8000
    📄 License
 Distributed under the MIT License.
 
 👩‍💻 Author: Maryam Ghaffar
 📧 Email: maryamghaffar1234m@gmail.com
-🔗 Portfolio: 
-    LinkedIn: 
+🔗 Portfolio: https://maryamghaffar1234m-png.github.io/Maryam_Portfolio/
+    LinkedIn: maryam-ghaffar-62551837b   
