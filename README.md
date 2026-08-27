@@ -85,7 +85,7 @@ Frontend: HTML, CSS, JavaScript
 
 Hosting: FastAPI Cloud
 
-👩‍💻 Author: Maryam Ghaffar
+##👩‍💻 Author: Maryam Ghaffar
 📧 Email: maryamghaffar1234m@gmail.com
  Portfolio: https://maryamghaffar1234m-png.github.io/Maryam_Portfolio/
  Linkedln: maryam-ghaffar-62551837b  
